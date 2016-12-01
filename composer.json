@@ -1,0 +1,13 @@
+{
+	"require": {
+		"brandonwamboldt/utilphp": "1.0.*",
+		"nesbot/carbon": "*",
+		"respect/validation": "0.8.*",
+		"slim/slim": "2.*",
+		"itsgoingd/slim-facades": "dev-master",
+		"illuminate/database": "~5.0",
+		"guzzlehttp/guzzle": "~6.0",
+        "hashids/hashids": "^1.0",
+        "jublonet/codebird-php": "3.1.0"
+	}
+}
