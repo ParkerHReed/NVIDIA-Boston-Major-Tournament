@@ -295,7 +295,7 @@ $app->get( '/cron/process/TbjZberd', function() use ( $app, $services, $lang_arr
 	$twitter = \Codebird\Codebird::getInstance();
 	$twitter->setToken("37515099-dgFNnBdkRSW8tPNI2v1PFziBeTjyTkgCmmRdRU5r0", "0Y6lstEL0YTMVvaJrL8QkuybmviaK0BqZRQKfuNxQHwej");
 
-	$twitter_search = urlencode('#ESLONE #GameReady');
+	$twitter_search = urlencode('#BOSTONMAJOR #GameReady');
 	// $twitter_search = urlencode('#TI6');
 
 	$twitter_count = 100;
@@ -389,7 +389,7 @@ $app->get( '/cron/backup/TbjZberd', function() use ( $app, $services, $lang_arra
 	$twitter = \Codebird\Codebird::getInstance();
 	$twitter->setToken("37515099-dgFNnBdkRSW8tPNI2v1PFziBeTjyTkgCmmRdRU5r0", "0Y6lstEL0YTMVvaJrL8QkuybmviaK0BqZRQKfuNxQHwej");
 
-	$twitter_search = urlencode('#ESLONE #GameReady');
+	$twitter_search = urlencode('#BOSTONMAJOR #GameReady');
 
 	$twitter_count = 100;
 

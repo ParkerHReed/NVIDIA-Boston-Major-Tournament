@@ -44,12 +44,14 @@ body.lang-cn {
 
 .mobile-bg-cover {
   background-color: #000;
-  display: block; }
-
-@media (min-width: 1280) {
-  .mobile-bg-cover {
-    background-color: #000;
-    display: none; } }
+  display: block;
+  margin-top: 0; }
+  @media (min-width: 1024px) {
+    .mobile-bg-cover {
+      margin-top: 45%; } }
+  @media (min-width: 1200px) {
+    .mobile-bg-cover {
+      margin: 0; } }
 
 /* scrollbar
 ===================================================== */
@@ -84,11 +86,168 @@ body.lang-cn {
       color: #fff;
       text-decoration: underline; }
 
+/* Location
+===================================================== */
+#location {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  z-index: 999; }
+  #location .current svg {
+    width: 30px;
+    height: 20px; }
+  #location .menu {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    width: 220px;
+    position: absolute;
+    top: 100%;
+    left: -5px;
+    margin-top: 10px;
+    z-index: 999;
+    background-color: #373737;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease; }
+    #location .menu .btn-close {
+      display: none; }
+    #location .menu .option {
+      display: block;
+      color: #ddd;
+      position: relative;
+      padding: 10px 10px 10px 48px;
+      font-family: GeForce, sans-serif;
+      font-size: 12px;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      -webkit-transition: all 200ms ease;
+      transition: all 200ms ease;
+      border-radius: 3px; }
+      #location .menu .option .flag {
+        position: absolute;
+        top: 8px;
+        left: 6px;
+        width: 30px;
+        height: 17px; }
+      #location .menu .option:hover {
+        background-color: #76b900; }
+  #location.open .menu {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1); }
+
+/* Main Intro
+===================================================== */
+#main-intro {
+  width: 100%;
+  width: 100vw;
+  height: 100vh; }
+  @media (min-width: 1200px) {
+    #main-intro {
+      width: 45%;
+      float: left; } }
+  #main-intro .holder {
+    padding: 40px 4%; }
+    #main-intro .holder .header-tagline {
+      width: 100%;
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 13%;
+      padding: 0 2%; }
+      @media (min-width: 375px) {
+        #main-intro .holder .header-tagline {
+          margin-top: 12%; } }
+      @media (min-width: 768px) {
+        #main-intro .holder .header-tagline {
+          margin-top: 5%; } }
+      #main-intro .holder .header-tagline .main-callout {
+        color: #76b900;
+        font-family: GeForce, sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        padding: 0; }
+        @media (min-width: 375px) {
+          #main-intro .holder .header-tagline .main-callout {
+            font-size: 28px;
+            padding-bottom: 5px; } }
+        @media (min-width: 768px) {
+          #main-intro .holder .header-tagline .main-callout {
+            font-size: 40px;
+            padding-bottom: 10px; } }
+      #main-intro .holder .header-tagline .sub-callout {
+        color: #eeeeee;
+        font-family: GeForceLight, sans-serif;
+        font-size: 17px;
+        padding-bottom: 15px; }
+        @media (min-width: 375px) {
+          #main-intro .holder .header-tagline .sub-callout {
+            font-size: 21px;
+            padding-bottom: 25px; } }
+        @media (min-width: 768px) {
+          #main-intro .holder .header-tagline .sub-callout {
+            font-size: 31px;
+            max-width: 510px;
+            margin: 0 auto; } }
+    #main-intro .holder .tournament-info {
+      text-align: center;
+      width: 100%;
+      position: relative;
+      max-width: 720px;
+      margin: 0 auto; }
+      #main-intro .holder .tournament-info img {
+        width: 100%;
+        padding: 0; }
+        @media (min-width: 768px) {
+          #main-intro .holder .tournament-info img {
+            max-width: 580px; } }
+      #main-intro .holder .tournament-info .line1 {
+        font-family: GeForce, sans-serif;
+        font-weight: bold;
+        color: #ffffff;
+        font-size: 16px;
+        padding-bottom: 14px;
+        line-height: 21px;
+        text-transform: uppercase;
+        margin-top: -100px; }
+        @media (min-width: 375px) {
+          #main-intro .holder .tournament-info .line1 {
+            line-height: 23px;
+            font-size: 18px; } }
+        @media (min-width: 414px) {
+          #main-intro .holder .tournament-info .line1 {
+            font-size: 20px; } }
+        @media (min-width: 768px) {
+          #main-intro .holder .tournament-info .line1 {
+            padding: 0 7%;
+            line-height: 30px;
+            font-size: 25px; } }
+        @media (min-width: 1700px) {
+          #main-intro .holder .tournament-info .line1 {
+            padding: 0 8%; } }
+      #main-intro .holder .tournament-info .line2 {
+        color: #b6b6b6;
+        font-size: 13px;
+        padding: 0 10px; }
+        @media (min-width: 414px) {
+          #main-intro .holder .tournament-info .line2 {
+            font-size: 15px; } }
+        @media (min-width: 768px) {
+          #main-intro .holder .tournament-info .line2 {
+            padding: 15px 10%;
+            font-size: 16px; } }
+
 /* Brackets
 ===================================================== */
 #brackets {
   position: relative;
-  width: 36%;
+  width: 35%;
   margin-right: 216px;
   margin-top: 45px;
   float: right;
@@ -168,14 +327,19 @@ body.lang-cn {
         background-size: cover; }
     #brackets .teambox-inside .info {
       position: relative;
-      padding: 16px 20px 16px 110px;
-      min-height: 103px; }
+      padding: 25px 0 25px 115px; }
       #brackets .teambox-inside .info .logo {
         position: absolute;
         top: 0px;
         right: 100%;
         margin-right: 20px;
         width: 100%; }
+        @media (min-width: 768px) {
+          #brackets .teambox-inside .info .logo {
+            float: left;
+            margin-left: -92px;
+            position: initial;
+            width: auto; } }
         #brackets .teambox-inside .info .logo img {
           max-height: 56px; }
       #brackets .teambox-inside .info .content {
@@ -195,9 +359,15 @@ body.lang-cn {
         position: relative; }
         #brackets .teambox-inside .info .number span.num {
           display: inline-block; }
+          @media (min-width: 768px) {
+            #brackets .teambox-inside .info .number span.num {
+              float: left; } }
         #brackets .teambox-inside .info .number .icon {
           position: relative;
           padding: 0 0 0 7px; }
+          @media (min-width: 768px) {
+            #brackets .teambox-inside .info .number .icon {
+              float: left; } }
           #brackets .teambox-inside .info .number .icon svg {
             width: 28px;
             height: 22px; }
@@ -208,6 +378,10 @@ body.lang-cn {
         font-family: GeForce, sans-serif;
         text-transform: uppercase;
         display: none; }
+        @media (min-width: 768px) {
+          #brackets .teambox-inside .info .hashtags {
+            display: block;
+            padding-right: 100px; } }
         #brackets .teambox-inside .info .hashtags span {
           display: inline-block;
           margin-right: 6px; }
@@ -247,7 +421,11 @@ body.lang-cn {
             font-family: GeForceLight, sans-serif; }
         #brackets .teambox-inside .tweets .entry .content {
           font-size: 12px;
-          color: #000000; }
+          color: #000000;
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical; }
           #brackets .teambox-inside .tweets .entry .content a {
             color: #1b95e0;
             text-decoration: none; }
@@ -256,7 +434,10 @@ body.lang-cn {
     #brackets .teambox-inside .bottom {
       padding: 0px; }
       #brackets .teambox-inside .bottom .button {
-        background-color: #b1b0b0;
+        background: #73b400;
+        background: -webkit-linear-gradient(top, #73b400 0%, #69a500 100%);
+        background: linear-gradient(to bottom, #73b400 0%, #69a500 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73b400', endColorstr='#69a500',GradientType=0 );
         display: block;
         text-align: center;
         color: #fff;
@@ -266,7 +447,7 @@ body.lang-cn {
         font-size: 14px;
         letter-spacing: 2px;
         text-transform: uppercase;
-        padding: 15px 20px;
+        padding: 20px 20px;
         -webkit-transition: all 200ms ease;
         transition: all 200ms ease;
         width: 100%;
@@ -279,115 +460,22 @@ body.lang-cn {
           top: 2px;
           margin-right: 10px; }
           #brackets .teambox-inside .bottom .button .icon svg {
-            width: 15px;
-            height: 15px; }
+            width: 13px;
+            height: 13px; }
           #brackets .teambox-inside .bottom .button .icon svg * {
             fill: #fff; }
         #brackets .teambox-inside .bottom .button:hover {
-          background-color: #bebdbd; }
-  #brackets .team-og .teambox-inside .info .logo {
-    padding-top: 8px;
-    padding-right: 5px; }
-    #brackets .team-og .teambox-inside .info .logo img {
-      max-height: 54px; }
-  #brackets .team-liquid .teambox-inside .info .logo {
-    padding-top: 8px;
-    padding-right: 5px; }
-    #brackets .team-liquid .teambox-inside .info .logo img {
-      max-height: 54px; }
-  #brackets .team-newbee .teambox-inside .info .logo {
-    padding-top: 5px;
-    padding-right: 3px; }
-    #brackets .team-newbee .teambox-inside .info .logo img {
-      max-height: 60px; }
-  #brackets .team-lgd .teambox-inside .info .logo {
-    padding-top: 10px;
-    padding-right: 0px; }
-    #brackets .team-lgd .teambox-inside .info .logo img {
-      max-height: 60px;
-      max-width: 70px; }
-  #brackets .team-mvpphoenix .teambox-inside .info .logo {
-    padding-top: 5px;
-    padding-right: 3px; }
-    #brackets .team-mvpphoenix .teambox-inside .info .logo img {
-      max-height: 60px; }
-  #brackets .team-natusvincere .teambox-inside .info .logo {
-    padding-top: 8px;
-    padding-right: 1px; }
-    #brackets .team-natusvincere .teambox-inside .info .logo img {
-      max-height: 56px; }
-  #brackets .team-evilgeniuses .teambox-inside .info .logo {
-    padding-top: 3px;
-    padding-right: 3px; }
-    #brackets .team-evilgeniuses .teambox-inside .info .logo img {
-      max-height: 60px; }
-  #brackets .team-wings .teambox-inside .info .logo {
-    padding-top: 6px;
-    padding-right: 0px; }
-    #brackets .team-wings .teambox-inside .info .logo img {
-      max-height: 54px; }
-  #brackets .team-teamsecret .teambox-inside .info .logo {
-    padding-top: 10px;
-    padding-right: 0px;
-    margin-right: 10px; }
-    #brackets .team-teamsecret .teambox-inside .info .logo img {
-      max-height: 46px; }
-  #brackets .team-tnc .teambox-inside .info .logo {
-    padding-top: 3px;
-    padding-right: 3px; }
-    #brackets .team-tnc .teambox-inside .info .logo img {
-      max-height: 60px; }
-  #brackets .team-digitalchaos .teambox-inside .info .logo {
-    padding-top: 6px;
-    padding-right: 6px; }
-    #brackets .team-digitalchaos .teambox-inside .info .logo img {
-      max-height: 56px; }
-  #brackets .team-vici .teambox-inside .info .logo {
-    padding-top: 6px;
-    padding-right: 0px;
-    margin-right: 16px; }
-    #brackets .team-vici .teambox-inside .info .logo img {
-      max-height: 54px; }
-  #brackets .team-alliance .teambox-inside .info .logo {
-    padding-top: 6px;
-    padding-right: 3px; }
-    #brackets .team-alliance .teambox-inside .info .logo img {
-      max-height: 56px; }
-  #brackets .team-fnatic .teambox-inside .info .logo {
-    padding-top: 0px;
-    padding-right: 0px; }
-    #brackets .team-fnatic .teambox-inside .info .logo img {
-      max-height: 64px; }
-  #brackets .team-complexity .teambox-inside .info .logo {
-    padding-top: 13px;
-    padding-right: 0px; }
-    #brackets .team-complexity .teambox-inside .info .logo img {
-      max-height: 42px; }
-  #brackets .team-ehome .teambox-inside .info .logo {
-    padding-top: 3px;
-    padding-right: 3px; }
-    #brackets .team-ehome .teambox-inside .info .logo img {
-      max-height: 60px; }
-  #brackets .team-escape .teambox-inside .info .logo {
-    padding-top: 8px;
-    padding-right: 5px; }
-    #brackets .team-escape .teambox-inside .info .logo img {
-      max-height: 56px; }
-  #brackets .team-execration .teambox-inside .info .logo {
-    padding-top: 3px;
-    padding-right: 3px; }
-    #brackets .team-execration .teambox-inside .info .logo img {
-      max-height: 60px; }
+          background-color: #83ce00; }
 
 /***** BRACKETS DESKTOP ******/
 @media (min-width: 1200px) {
   #brackets {
     position: relative;
-    width: 40%;
     float: left;
+    width: 40%;
     padding-bottom: 100px;
     margin: 0 auto;
-    margin-top: 40px; }
+    margin-top: 50px; }
     #brackets .brackets-title .line {
       background-color: #76b900;
       width: 20px;
@@ -414,50 +502,22 @@ body.lang-cn {
       font-weight: bold;
       letter-spacing: 2px;
       padding: 21px 0 0 2px; }
+    #brackets .bracket-group .match-entry .team-cards .teambox-inside .inside .info .logo {
+      right: 50px; }
+    #brackets .bracket-group .match-entry .team-cards .teambox-inside .inside .info .number span.num {
+      float: left; }
+    #brackets .bracket-group .match-entry .team-cards .teambox-inside .inside .info .number .icon {
+      margin-top: -2px;
+      float: left; }
     #brackets .bracket-group .match-entry .team-cards .teambox-inside .inside .info .content .hashtags {
       display: block; }
     #brackets .bracket-group .match-entry .team-cards .teambox-inside .bottom {
       padding: 4px; }
       #brackets .bracket-group .match-entry .team-cards .teambox-inside .bottom .button {
-        width: 100%; }
-  #brackets .teambox-inside .info .logo {
-    right: 50px; }
-  #brackets .teambox-inside .info .number span.num {
-    float: left; }
-  #brackets .teambox-inside .info .number .icon {
-    margin-top: -2px;
-    float: left; }
-  #brackets .team-sk .teambox-inside .info .logo {
-    right: 62px; }
-  #brackets .team-liquid .teambox-inside .info .logo {
-    right: 54px; }
-  #brackets .team-astralis .teambox-inside .info .logo {
-    right: 61px; }
-  #brackets .team-g2 .teambox-inside .info .logo {
-    right: 57px; }
-  #brackets .team-natusvincere .teambox-inside .info .logo {
-    right: 67px; }
-  #brackets .team-virtus .teambox-inside .info .logo {
-    right: 57px; }
-  #brackets .team-fnatic .teambox-inside .info .logo {
-    right: 66px; }
-  #brackets .team-cloud9 .teambox-inside .info .logo {
-    right: 56px; }
-  #brackets .team-tsm .teambox-inside .info .logo {
-    right: 63px; }
-  #brackets .team-optic .teambox-inside .info .logo {
-    right: 56px; } }
+        width: 100%; } }
 
 /* Prize Meter Mobile */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
-  #prize-meter {
-    margin-top: -145px; } }
-
 /* Prize Meter Tablet */
-@media only screen and (min-device-width: 667px) and (max-device-width: 1024px) {
-  #prize-meter {
-    margin-top: -255px; } }
-
 /* Prize Meeter
 ===================================================== */
 #prize-meter {
@@ -468,9 +528,6 @@ body.lang-cn {
   top: 0;
   right: 0; }
   #prize-meter .intro {
-    background-color: #373737;
-    padding: 15px 0 18px 0;
-    text-align: center;
     text-transform: uppercase; }
     #prize-meter .intro span.round-type {
       font-weight: regular;
@@ -478,99 +535,40 @@ body.lang-cn {
     #prize-meter .intro .line1 {
       font-family: GeForce, sans-serif;
       font-weight: bold;
-      font-size: 20px;
-      color: #76b900;
-      margin-bottom: -2px; }
+      font-size: 18px;
+      color: #76b900; }
     #prize-meter .intro .line2 {
       font-family: GeForceLight, sans-serif;
       color: #fff;
-      font-size: 12px; }
+      font-size: 13px;
+      display: block; }
+      @media (max-width: 1024px) {
+        #prize-meter .intro .line2 {
+          display: none; } }
     #prize-meter .intro .line3 {
       font-family: GeForceLight, sans-serif;
       color: #fff;
-      font-size: 16px;
+      font-size: 27px;
       line-height: 24px;
-      width: 127px;
-      margin-left: 15px;
-      font-weight: bold; }
-  #prize-meter .total {
-    text-align: center;
-    background-color: #000;
-    padding: 16px 0 20px 0;
-    position: relative; }
-    #prize-meter .total .number {
-      font-family: GeForce, sans-serif;
-      font-weight: bold;
-      font-size: 20px;
-      color: #fff; }
-    #prize-meter .total .icon {
-      position: absolute;
-      bottom: -15px;
-      left: 50%;
-      margin-left: -15px;
-      width: 30px;
-      z-index: 1; }
-      #prize-meter .total .icon svg {
-        width: 100%; }
-      #prize-meter .total .icon svg * {
-        fill: #76b900; }
-
-/* Location
-===================================================== */
-#location {
-  position: fixed;
-  top: 12px;
-  left: 14px;
-  z-index: 999; }
-  #location .current svg {
-    width: 30px;
-    height: 20px; }
-  #location .menu {
-    visibility: hidden;
-    opacity: 0;
-    -webkit-transform: scaleY(0);
-            transform: scaleY(0);
-    -webkit-transform-origin: 0 0;
-            transform-origin: 0 0;
-    width: 220px;
+      width: 127px; }
+  #prize-meter .total .number {
+    font-family: GeForce, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    background-color: #000000;
+    padding: 20px 0; }
+  #prize-meter .total .icon {
     position: absolute;
-    top: 100%;
-    left: -5px;
-    margin-top: 10px;
-    z-index: 999;
-    background-color: #373737;
-    padding: 10px;
-    border-radius: 5px;
-    -webkit-transition: all 200ms ease;
-    transition: all 200ms ease; }
-    #location .menu .btn-close {
-      display: none; }
-    #location .menu .option {
-      display: block;
-      color: #ddd;
-      position: relative;
-      padding: 10px 10px 10px 48px;
-      font-family: GeForce, sans-serif;
-      font-size: 12px;
-      color: #fff;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      -webkit-transition: all 200ms ease;
-      transition: all 200ms ease;
-      border-radius: 3px; }
-      #location .menu .option .flag {
-        position: absolute;
-        top: 8px;
-        left: 6px;
-        width: 30px;
-        height: 17px; }
-      #location .menu .option:hover {
-        background-color: #76b900; }
-  #location.open .menu {
-    visibility: visible;
-    opacity: 1;
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1); }
+    top: 138px;
+    left: 50%;
+    margin-left: -15px;
+    width: 30px;
+    z-index: 1; }
+    #prize-meter .total .icon svg {
+      width: 100%; }
+    #prize-meter .total .icon svg * {
+      fill: #76b900; }
 
 /* Copyright
 ===================================================== */
@@ -584,11 +582,12 @@ body.lang-cn {
   #copyright a {
     color: #666667; }
 
-/* Tablet Main Intro
+/* Tablet BRACKETS
 ===================================================== */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   #brackets .teambox-inside .info .hashtags {
-    display: block; }
+    display: block;
+    padding-right: 100px; }
   #brackets .teambox-inside .info .logo {
     right: 23%; }
   #brackets .teambox-inside .info .number .icon {
@@ -615,7 +614,7 @@ body.lang-cn {
     padding-left: 1px; } }
 
 /* END MEDIA QUERY */
-/* Desktop Main Intro
+/* Desktop Prize Meter
 ===================================================== */
 @media (min-width: 1200px) {
   #prize-meter .follow-nvidia {
@@ -687,6 +686,12 @@ body.lang-cn {
 
 /* Meter Desktop
 ===================================================== */
+#prize-meter .header {
+  text-align: center; }
+  #prize-meter .header .intro {
+    background-color: #373737;
+    padding: 15px; }
+
 #prize-meter .meter {
   position: relative;
   background: transparent url("../img/ticks.gif") repeat-y 50% 0;
@@ -834,7 +839,7 @@ body.lang-cn {
 #prize-meter .meter-mobile {
   display: none;
   position: relative;
-  height: 266px;
+  height: 190px;
   overflow: hidden;
   overflow-x: auto;
   border-bottom: 1px solid #000;
@@ -854,13 +859,6 @@ body.lang-cn {
     padding: 0;
     position: relative;
     background: transparent url("../img/mobile/ticks.gif") repeat-x 5px 50%; }
-    #prize-meter .meter-mobile .padding .follow-nvidia button.follow-btn {
-      border: solid 1px #76b900;
-      padding: 13px 27px;
-      background-color: transparent;
-      font-size: 11px;
-      letter-spacing: .5px;
-      color: #76b900; }
   #prize-meter .meter-mobile .top-cover {
     position: absolute;
     top: 0;
@@ -991,61 +989,53 @@ body.lang-cn {
 
 /* Tablet
 ===================================================== */
+@media (max-width: 768px) {
+  #prize-meter .header .intro {
+    width: 60%; } }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #prize-meter .header .intro {
+    width: 70%; } }
+
 @media (max-width: 1200px) {
   #brackets .teambox-inside .photo .thumbnail {
     height: 250px; }
   #location {
     position: absolute; }
-  #videobg {
-    display: none; }
-  #main-intro {
-    position: relative;
-    padding: 0 90px;
-    background-size: cover; }
-    #main-intro .logo {
-      width: 247px;
-      height: 114px; }
-    #main-intro .shield .line2 {
-      font-size: 13px; }
-    #main-intro .shield .content {
-      top: auto;
-      position: relative; }
-  #main-intro .shield img {
-    height: auto;
-    width: 100%; }
-  #main-intro .logo {
-    height: auto; }
-    #main-intro .logo svg {
-      height: auto; }
   #prize-meter {
     position: relative;
     padding: 0;
     width: 100%;
-    height: auto; }
+    height: auto;
+    float: left; }
     #prize-meter .header {
-      background-color: #000; }
+      background-color: #000;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: baseline;
+          -ms-flex-align: baseline;
+              align-items: baseline;
+      padding: 15px 0;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
       #prize-meter .header .intro {
-        background-color: transparent;
-        float: left;
-        padding: 20px 40px; }
+        background-color: transparent; }
         #prize-meter .header .intro .line1 {
           display: none; }
-      #prize-meter .header .total {
-        background-color: transparent;
-        float: right;
-        padding: 20px 40px; }
-        #prize-meter .header .total .number {
-          font-size: 34px;
-          line-height: 34px;
-          display: inline-block;
-          margin-right: 10px; }
-        #prize-meter .header .total .icon {
-          left: auto;
-          bottom: auto;
-          top: 2px;
-          margin: 0;
-          position: relative;
-          display: inline-block; }
+      #prize-meter .header .total .number {
+        font-size: 34px;
+        line-height: 34px;
+        display: inline-block;
+        margin-right: 10px; }
+      #prize-meter .header .total .icon {
+        left: auto;
+        bottom: auto;
+        top: 2px;
+        margin: 0;
+        position: relative;
+        display: inline-block; }
     #prize-meter .meter {
       display: none; }
     #prize-meter .meter-mobile {
@@ -1060,7 +1050,8 @@ body.lang-cn {
       text-align: center;
       position: relative;
       padding: 30px 0 0px 0;
-      margin-bottom: 3px; }
+      margin-bottom: 3px;
+      clear: both; }
       #brackets .brackets-title .title {
         font-size: 26px; }
       #brackets .brackets-title .line {
@@ -1093,15 +1084,8 @@ body.lang-cn {
 /* Mobile
 ===================================================== */
 @media (max-width: 767px) {
-  #main-intro {
-    padding: 0; }
-  #prize-meter .header .intro {
-    padding-right: 0;
-    padding-left: 20px; }
   #prize-meter .header .total {
-    padding-left: 0;
-    padding-right: 20px;
-    margin-top: 12px; }
+    margin-left: 0px; }
   #brackets {
     padding: 0; }
   #brackets .teambox-inside {
@@ -1114,15 +1098,13 @@ body.lang-cn {
     background-color: #000;
     color: #fff; }
   #brackets .teambox-inside .bottom .button {
-    font-size: 14px;
-    padding: 20px 29px;
+    font-size: 10px;
+    padding: 10px 5px;
     text-align: center; }
   #brackets .teambox-inside .bottom .button .icon {
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    left: 11px;
-    margin-top: -8px; }
+    display: block;
+    text-align: center;
+    padding-bottom: 5px; }
   #brackets .teambox-inside .info .content {
     padding: 0;
     border: none; }
@@ -1190,3 +1172,177 @@ body.lang-cn {
     text-decoration: underline; }
   #admin li {
     margin-bottom: 5px; }
+
+/* Product CTA
+===================================================== */
+/* Mobile Product Call Out
+===================================================== */
+@media only screen and (max-device-width: 667px) {
+  .graphics-card-callout-mobile {
+    display: block;
+    width: 100%;
+    background-color: black; }
+    .graphics-card-callout-mobile .main-title {
+      font-family: GeForce, sans-serif;
+      color: #76b900;
+      font-size: 28px;
+      text-transform: uppercase;
+      margin-top: 40px;
+      text-align: center; }
+    .graphics-card-callout-mobile .sub-title {
+      color: #d2d2d2;
+      font-size: 13px;
+      max-width: 330px;
+      width: 100%;
+      text-align: center;
+      padding-top: 10px;
+      margin: 0 auto;
+      padding-bottom: 54px;
+      letter-spacing: 1px; }
+    .graphics-card-callout-mobile .product-info {
+      width: 100%;
+      border-top: solid 1px #4d4d4d;
+      margin-top: -24px;
+      border-bottom: solid 1px #4d4d4d;
+      float: left;
+      margin-bottom: 25px;
+      padding: 0 10px 0 0;
+      background-color: black; }
+      .graphics-card-callout-mobile .product-info .product-column {
+        width: 100%;
+        float: left;
+        text-align: center;
+        background-image: url(../img/graphicscard.png);
+        background-size: 189px;
+        background-position: right;
+        background-repeat: no-repeat; }
+        .graphics-card-callout-mobile .product-info .product-column ul {
+          text-align: left;
+          padding-left: 20px;
+          list-style-type: none; }
+          .graphics-card-callout-mobile .product-info .product-column ul li {
+            padding: 15px 0; }
+            .graphics-card-callout-mobile .product-info .product-column ul li .product-name {
+              color: #d2d2d2;
+              font-size: 11px;
+              padding-bottom: 3px; }
+            .graphics-card-callout-mobile .product-info .product-column ul li .learn {
+              color: #66a000; } }
+
+/* END MEDIA QUERY
+
+/* Tablet Product Call Out
+===================================================== */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .graphics-card-callout-mobile {
+    display: block;
+    width: 100%;
+    background-color: black; }
+    .graphics-card-callout-mobile .main-title {
+      font-family: GeForce, sans-serif;
+      color: #76b900;
+      font-size: 28px;
+      text-transform: uppercase;
+      margin-top: 40px;
+      text-align: center; }
+    .graphics-card-callout-mobile .sub-title {
+      color: #d2d2d2;
+      font-size: 13px;
+      max-width: 330px;
+      width: 100%;
+      text-align: center;
+      padding-top: 10px;
+      margin: 0 auto;
+      padding-bottom: 54px;
+      letter-spacing: 1px; }
+    .graphics-card-callout-mobile .product-info {
+      width: 100%;
+      border-top: solid 1px #4d4d4d;
+      margin-top: -24px;
+      border-bottom: solid 1px #4d4d4d;
+      float: left;
+      margin-bottom: 25px;
+      padding: 0 150px 0 150px;
+      background-color: black; }
+      .graphics-card-callout-mobile .product-info .product-column {
+        width: 100%;
+        float: left;
+        text-align: center;
+        background-image: url(../img/graphicscard.png);
+        background-size: 189px;
+        background-position: right;
+        background-repeat: no-repeat; }
+        .graphics-card-callout-mobile .product-info .product-column ul {
+          text-align: left;
+          padding-left: 20px;
+          list-style-type: none; }
+          .graphics-card-callout-mobile .product-info .product-column ul li {
+            padding: 15px 0; }
+            .graphics-card-callout-mobile .product-info .product-column ul li .product-name {
+              color: #d2d2d2;
+              font-size: 11px;
+              padding-bottom: 3px; }
+            .graphics-card-callout-mobile .product-info .product-column ul li .learn {
+              color: #66a000; } }
+
+/* END MEDIA QUERY */
+.graphics-card-callout {
+  display: none; }
+
+@media (min-width: 1200px) {
+  .graphics-card-callout {
+    display: block;
+    width: 100%;
+    float: left;
+    position: relative; }
+    .graphics-card-callout .main-title {
+      font-family: GeForce, sans-serif;
+      color: #76b900;
+      font-size: 44px;
+      text-transform: uppercase;
+      margin-top: 60px;
+      text-align: center;
+      letter-spacing: -2px; }
+    .graphics-card-callout .sub-title {
+      color: #d2d2d2;
+      max-width: 330px;
+      width: 100%;
+      text-align: center;
+      padding-top: 10px;
+      font-size: 15px;
+      margin: 0 auto;
+      letter-spacing: 1px;
+      font-weight: bold; }
+    .graphics-card-callout .product-info {
+      width: calc(100% - 60px);
+      border-top: solid 1px #4d4d4d;
+      border-bottom: solid 1px #4d4d4d;
+      float: left;
+      margin: 36px 40px 130px 35px; }
+      .graphics-card-callout .product-info .product-column {
+        width: 100%;
+        float: left;
+        text-align: center;
+        background-image: url(../img/graphicscard.png);
+        background-size: 250px;
+        background-position: right;
+        background-repeat: no-repeat; }
+        .graphics-card-callout .product-info .product-column ul {
+          text-align: left;
+          list-style-type: none;
+          padding: 0 20px; }
+          .graphics-card-callout .product-info .product-column ul li {
+            padding: 15px 0; }
+            .graphics-card-callout .product-info .product-column ul li .product-name {
+              color: #d2d2d2;
+              font-size: 13px;
+              padding-bottom: 3px; }
+            .graphics-card-callout .product-info .product-column ul li .learn {
+              color: #66a000; }
+      .graphics-card-callout .product-info .product-image {
+        width: 50%;
+        float: left;
+        margin-top: 54px; }
+        .graphics-card-callout .product-info .product-image img {
+          width: 260px;
+          max-width: 100%; } }
