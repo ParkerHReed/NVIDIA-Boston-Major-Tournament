@@ -52,7 +52,7 @@
 		<div class="menu">
 			<a href="#" class="btn-close">x</a>
 			<a href="<?=url('/');?>" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/us.svg')?></span> USA</a>
-			<a href="#" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/ru.svg')?></span> Russia</a>
+			<a href="#" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/us.svg')?></span> Russia</a>
 			<a href="#" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/cn.svg')?></span> China</a>
 			<a href="#" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/br.svg')?></span> Brazil</a>
 			<a href="#" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/es.svg')?></span> Spain</a>

@@ -30,7 +30,7 @@
 		'lm_notebook' => 'GeForce GTX 10-series Notebooks',
 		'learn_more' => 'Learn More >',
 		'rep_title' => 'Rep Your Team',
-		'copyright' => '© '.date('Y').' NVIDIA Corporation  |  © '.date('Y').' Valve Corporation, all rights reserved. | *Max 25 individual entries per matchup | ',
+		'copyright' => '© '.date('Y').' NVIDIA Corporation  |  © '.date('Y').' Valve Corporation, all rights reserved. | *Max 25 individual entries per matchup | <a href="index.php/official_rules" class="rules" target="_blank" onclick="trackOutboundLink(this.href)">Official Rules</a>',
 		'day' => 'Day',
 
 		'lower_bracket_round_1' => 'Round 1',
