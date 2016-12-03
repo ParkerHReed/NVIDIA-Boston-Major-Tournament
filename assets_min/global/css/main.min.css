@@ -320,7 +320,7 @@ body.lang-cn {
       border-radius: 100px;
       position: absolute;
       top: 100px;
-      left: 51%;
+      left: 53%;
       z-index: 99;
       margin-left: -30px;
       background-color: #fff;
@@ -462,6 +462,8 @@ body.lang-cn {
         position: relative;
         font-family: "Fjalla One", Helvetica, Arial, sans-serif;
         font-weight: bold;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
         font-size: 14px;
         letter-spacing: 2px;
         text-transform: uppercase;
@@ -559,15 +561,14 @@ body.lang-cn {
       font-family: GeForceLight, sans-serif;
       color: #fff;
       font-size: 13px;
-      display: block; }
+      display: none; }
       @media (max-width: 1024px) {
         #prize-meter .intro .line2 {
           display: none; } }
     #prize-meter .intro .line3 {
       font-family: GeForceLight, sans-serif;
       color: #fff;
-      font-size: 27px;
-      line-height: 24px;
+      font-size: 49px;
       width: 127px; }
   #prize-meter .total .number {
     font-family: GeForce, sans-serif;
@@ -604,7 +605,9 @@ body.lang-cn {
   font-size: 10px;
   color: #999999; }
   #copyright a {
-    color: #999; }
+    color: #999;
+    text-transform: uppercase;
+    text-decoration: underline; }
 
 /* Tablet BRACKETS
 ===================================================== */
@@ -713,7 +716,7 @@ body.lang-cn {
   text-align: center; }
   #prize-meter .header .intro {
     background-color: #373737;
-    padding: 15px; }
+    padding: 15px 15px 0 15px; }
 
 #prize-meter .meter {
   position: relative;
@@ -878,7 +881,7 @@ body.lang-cn {
     background-color: #aaa; }
   #prize-meter .meter-mobile .padding {
     height: 160px;
-    width: 1000px;
+    width: 1020px;
     padding: 0;
     position: relative;
     background: transparent url("../img/mobile/ticks.gif") repeat-x 5px 50%; }
@@ -1094,7 +1097,7 @@ body.lang-cn {
     position: relative;
     width: 100%;
     text-align: center;
-    padding: 20px 20px;
+    padding: 20px 18px;
     bottom: auto;
     left: auto; }
     #copyright a {
@@ -1200,7 +1203,7 @@ body.lang-cn {
 ===================================================== */
 /* Mobile Product Call Out
 ===================================================== */
-@media only screen and (max-device-width: 667px) {
+@media only screen and (max-width: 800px) {
   .graphics-card-callout-mobile {
     display: block;
     width: 100%;
@@ -1369,3 +1372,38 @@ body.lang-cn {
         .graphics-card-callout .product-info .product-image img {
           width: 260px;
           max-width: 100%; } }
+
+/*** LANDSCAPE MODE ****/
+/* iPhone 5*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .mobile-bg-cover {
+    margin-top: 560px; } }
+
+/* iPhone 6 */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .mobile-bg-cover {
+    margin-top: 560px; } }
+
+/* iPhone 6+ */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .mobile-bg-cover {
+    margin-top: 640px; } }
+
+/* Galaxy S4 */
+/* Galaxy S5 */
+/* HTC One */
+/* iPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .mobile-bg-cover {
+    margin-top: 280px; } }
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+  .mobile-bg-cover {
+    margin-top: 460px; } }
+
+/* Nexus 10 Tablet */
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .holder {
+    padding: 150px 4% !important; }
+  .mobile-bg-cover {
+    margin-top: 0px; } }

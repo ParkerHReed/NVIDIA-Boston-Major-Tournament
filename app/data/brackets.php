@@ -18,79 +18,41 @@
 			
 			'1' =>
 			[
-				'title' => 'Lower Bracket',
-				'series' => 'Best of 3',
-				'date' => 'October 2nd, 2016 - 7:00pm EDT',
-				'team1' => 'af',
-				'team2' => 'cp',
+				'title' => 'RO16 Match 1',
+				'series' => 'Single Elimination',
+				'date' => 'December 7th, 2016 - 10:00',
+				'team1' => 'tbd',
+				'team2' => 'tbd',
 				'results' => 'vs'
 			],
 			'2' =>
 			[
-				'title' => 'Lower Bracket',
-				'series' => 'Best of 3',
-				'date' => '3:00pm EDT',
-				'team1' => 'dc',
-				'team2' => 'eh',
+				'title' => 'RO16 Match 2',
+				'series' => 'December 7th, 2016 - 13:30 | Single Elimination',
+				'date' => 'December 7th, 2016 - 13:30',
+				'team1' => 'tbd',
+				'team2' => 'tbd',
 				'results' => 'vs'
 			],
     '3' =>
     [
-				'title' => 'Lower Bracket',
-				'series' => 'Best of 3',
-				'date' => '11:00am EDT',
-				'team1' => 'eg',
-				'team2' => 'ex',
+				'title' => 'RO16 Match 3',
+				'series' => 'December 7th, 2016 - 17:00 | Single Elimination',
+				'date' => 'December 7th, 2016 - 17:00',
+				'team1' => 'tbd',
+				'team2' => 'tbd',
 				'results' => 'vs'
     ],
     '4' =>
     [
-				'title' => 'Lower Bracket',
-				'series' => 'Best of 3',
-				'date' => '11:00am EDT',
-				'team1' => 'ig',
-				'team2' => 'lg',
-				'results' => 'vs'
-    ],
-    
-    '5' =>
-    [
-				'title' => 'Lower Bracket',
-				'series' => 'Best of 3',
-				'date' => '11:00am EDT',
-				'team1' => 'mv',
-				'team2' => 'nb',
-				'results' => 'vs'
-    ],
-    
-    '6' =>
-    [
-				'title' => 'Lower Bracket',
-				'series' => 'Best of 3',
-				'date' => '11:00am EDT',
-				'team1' => 'og',
-				'team2' => 'tf',
-				'results' => 'vs'
-    ],
-    '7' =>
-    [
-				'title' => 'Lower Bracket',
-				'series' => 'Best of 3',
-				'date' => '11:00am EDT',
-				'team1' => 'np',
-				'team2' => 'vi',
-				'results' => 'vs'
-    ],
-    '8' =>
-    [
-				'title' => 'Lower Bracket',
-				'series' => 'Best of 3',
-				'date' => '11:00am EDT',
-				'team1' => 'wg',
-				'team2' => 'wi',
+				'title' => 'RO16 Match 4',
+				'series' => 'December 7th, 2016 - 20:30 | Single Elimination',
+				'date' => 'December 7th, 2016 - 20:30',
+				'team1' => 'tbd',
+				'team2' => 'tbd',
 				'results' => 'vs'
     ]
-    ]
+    	]
 	];
 
 

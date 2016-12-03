@@ -89,8 +89,8 @@
         'wg' =>
         [
             'key' => 'wg',
-            'hashtag' => 'WarriousGamingUnity',
-            'name' => 'WarriousGaming.Unity'
+            'hashtag' => 'WarriorsGaming.Unity',
+            'name' => 'WarriorsGaming.Unity'
         ],
         'wi' =>
         [
@@ -98,7 +98,16 @@
             'hashtag' => 'WingsGaming',
             'name' => 'Wings Gaming'
        
+		],
+		 'tbd' =>
+        [
+            'key' => 'tbd',
+            'hashtag' => 'TBD',
+            'name' => 'tbd'
+       
 		]
+		
+		
     
 	];
 

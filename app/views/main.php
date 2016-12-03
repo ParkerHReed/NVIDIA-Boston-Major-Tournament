@@ -161,7 +161,7 @@
 						</div>
 						<div class="tweets">
 							<div class="label">Tweets</div>
-							<div class="number">20K</div>
+							<div class="number">10K</div>
 						</div>
 					</div>
 
@@ -173,7 +173,7 @@
 						</div>
 						<div class="tweets">
 							<div class="label">Tweets</div>
-							<div class="number">10K</div>
+							<div class="number">5K</div>
 						</div>
 					</div>
 
@@ -216,7 +216,7 @@
 						
 						<div class="tweets">
 							<div class="label">Tweets</div>
-							<div class="number">10K</div>
+							<div class="number">5K</div>
 						</div>
 						
 					</div>
@@ -231,7 +231,7 @@
 						
 						<div class="tweets">
 							<div class="label">Tweets</div>
-							<div class="number">20K</div>
+							<div class="number">10K</div>
 						</div>
 						
 					</div>
