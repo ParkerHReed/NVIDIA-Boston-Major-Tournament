@@ -241,7 +241,7 @@ $app->get( '/(:lang)', function( $lang = null ) use ( $app, $lang_array )
 	}
 	else
 	{
-		if( !in_array( $lang, [ 'us', 'ru', 'br', 'es', 'de' ] ) ) redirect('/');
+		if( !in_array( $lang, [ 'us', 'ru', 'br', 'es', 'de', 'cn' ] ) ) redirect('/');
 
 		setcookie( 'language', $lang, strtotime( '+1 year' ), '/' );
 		if( $lang == 'us' )

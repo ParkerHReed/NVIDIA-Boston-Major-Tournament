@@ -15,7 +15,7 @@ body
 	
 	
 	background-image: url('../img/background-mobile.jpg');
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -23,6 +23,7 @@ body
 @media (min-width:1024px) {
 	body {
 		background-image: url('../img/background.jpg');
+		background-size: cover;
 	}
 }
 html {
@@ -498,6 +499,8 @@ body.lang-cn
 				font-weight: bold;
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
+				-webkit-font-smoothing: subpixel-antialiased;
+				font-smooth: always;
 				font-size: 14px;
 				letter-spacing: 2px;
 				text-transform: uppercase;

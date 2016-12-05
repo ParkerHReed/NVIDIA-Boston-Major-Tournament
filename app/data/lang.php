@@ -278,4 +278,60 @@
 		'teaser_starts' => 'Sweepstakes Starts'
 	];
 
+
+	/* CHINA
+	----------------------------------------------------------- */
+
+	$lang_array['cn'] =
+	[
+		'title' => 'BOSTON MAJOR | #GAMEREADY - 为你支持的战队加油助威即有机会赢取一片GeForce GTX 10系列显卡.',
+		'main_callout' => 'Geforce<sup>&reg;</sup> gtx 1080',
+		'sub_callout' => 'The Boston Major 官方指定显卡',
+		'intro_line1' => '为你支持的战队加油助威即有机会赢取一片GeForce GTX 10系列显卡.',
+		'description' => '',
+		'hashtag' => '#gameready',
+		'intro_line2' => '每发送一条带有<a href="http://www.geforce.com/hardware/10series" target="_blank">#GameReady</a>的Tweet都能获得一次抽奖机会,发送Tweets总累积量越多则奖品价值越高。每场比赛我们都将选取一位获奖者，请不断为你支持的战队助威吧。',
+		'prize_meter_reset' => '', // Prize meter resets each day.
+		'gc_main_callout' => 'Geforce<sup>&reg;</sup> gtx 1080',
+		'gc_sub_title' => '带来超高性能超低功耗的流畅游戏体验',
+		'official_rules' => '正式规则',
+		'prize_meter' => '奖品价值标尺',
+		'prize1' => 'GeForce GTX 1060',
+		'prize2' => 'GeForce GTX 1070',
+		'prize3' => 'GeForce GTX 1080',
+		'prize4' => 'GeForce GTX 10-series Notebooks',
+		'learn_more' => '了解更多>',
+		'rep_title' => '代表你的战队',
+		'copyright' => '© '.date('Y').' NVIDIA Corporation  |  © '.date('Y').' Valve Corporation, all rights reserved. | *Max 25 individual entries per matchup | <a href="index.php/official_rules" class="rules" target="_blank" onclick="trackOutboundLink(this.href)">正式规则</a>',
+		'day' => '天',
+
+		'round_type' => '单局淘汰',
+		'round_time_1' => '',
+		'round_time_2' => '',
+		'round_time_3' => '',
+		'round_time_4' => '',
+		'lower_bracket_round_1' => '天 1',
+		'lower_bracket_round_2' => '天 2',
+		'lower_bracket_round_3' => '天 3',
+		'lower_bracket_round_4' => '天 4',
+		'lower_bracket_round_5' => '天 5',
+		'lower_bracket_finals' => '',
+		'upper_bracket_quarterfinals' => '',
+		'upper_bracket_semilfinals' => '半决赛第一场',
+		'upper_bracket_finals' => '半决赛第二场',
+		'grand_finals' => '总决赛',
+
+		'tweets' => 'tweets',
+		
+		'match_1' => '比赛 1',
+		'match_2' => '比赛 2',
+		'match_3' => '比赛 3',
+		'match_4' => '比赛 4',
+
+		'cheer_on' => '为 %s 助威',
+		
+
+		'teaser_starts' => 'Sweepstakes Starts'
+	];
+
 ?>
