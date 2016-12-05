@@ -18,8 +18,8 @@
 			
 			'1' =>
 			[
-				'title' => 'RO16 Match 1',
-				'series' => 'Single Elimination',
+				'title' => $lang_content->match_1,
+				'series' => $lang_content->round_type,
 				'date' => 'December 7th, 2016 - 10:00',
 				'team1' => 'tbd',
 				'team2' => 'tbd',
@@ -27,31 +27,31 @@
 			],
 			'2' =>
 			[
-				'title' => 'RO16 Match 2',
-				'series' => 'December 7th, 2016 - 13:30 | Single Elimination',
+				'title' => $lang_content->match_2,
+				'series' => 'December 7th, 2016 - 13:30',
 				'date' => 'December 7th, 2016 - 13:30',
 				'team1' => 'tbd',
 				'team2' => 'tbd',
 				'results' => 'vs'
 			],
-    '3' =>
-    [
-				'title' => 'RO16 Match 3',
-				'series' => 'December 7th, 2016 - 17:00 | Single Elimination',
+    		'3' =>
+    		[
+				'title' => $lang_content->match_3,
+				'series' => 'December 7th, 2016 - 17:00',
 				'date' => 'December 7th, 2016 - 17:00',
 				'team1' => 'tbd',
 				'team2' => 'tbd',
 				'results' => 'vs'
-    ],
-    '4' =>
-    [
-				'title' => 'RO16 Match 4',
-				'series' => 'December 7th, 2016 - 20:30 | Single Elimination',
+    		],
+			'4' =>
+			[
+				'title' => $lang_content->match_4,
+				'series' => 'December 7th, 2016 - 20:30',
 				'date' => 'December 7th, 2016 - 20:30',
 				'team1' => 'tbd',
 				'team2' => 'tbd',
 				'results' => 'vs'
-    ]
+			]
     	]
 	];
 

@@ -160,7 +160,7 @@
 							<?=$lang_content->prize3?>
 						</div>
 						<div class="tweets">
-							<div class="label">Tweets</div>
+							<div class="label"><?=$lang_content->tweets?></div>
 							<div class="number">10K</div>
 						</div>
 					</div>
@@ -172,7 +172,7 @@
 							<?=$lang_content->prize2?>
 						</div>
 						<div class="tweets">
-							<div class="label">Tweets</div>
+							<div class="label"><?=$lang_content->tweets?></div>
 							<div class="number">5K</div>
 						</div>
 					</div>
@@ -215,7 +215,7 @@
 						</div>
 						
 						<div class="tweets">
-							<div class="label">Tweets</div>
+							<div class="label"><?=$lang_content->tweets?></div>
 							<div class="number">5K</div>
 						</div>
 						
@@ -230,7 +230,7 @@
 						</div>
 						
 						<div class="tweets">
-							<div class="label">Tweets</div>
+							<div class="label"><?=$lang_content->tweets?></div>
 							<div class="number">10K</div>
 						</div>
 						
