@@ -51,12 +51,12 @@
 		<a href="#" class="current"><?=svg('/assets_min/global/img/flags/'.$lang.'.svg')?></a>
 		<div class="menu">
 			<a href="#" class="btn-close">x</a>
-			<a href="<?=url('/');?>" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/us.svg')?></span> USA</a>
-			<a href="#" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/us.svg')?></span> Russia</a>
-			<a href="#" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/cn.svg')?></span> China</a>
-			<a href="#" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/br.svg')?></span> Brazil</a>
-			<a href="#" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/es.svg')?></span> Spain</a>
-			<a href="#" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/de.svg')?></span> Germany</a>
+			<a href="<?=url('index.php/us');?>" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/us.svg')?></span> USA</a>
+			<a href="<?=url('index.php/ru');?>" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/ru.svg')?></span> Russia</a>
+			<a href="<?=url('index.php/cn');?>" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/cn.svg')?></span> China</a>
+			<a href="<?=url('index.php/br');?>" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/br.svg')?></span> Brazil</a>
+			<a href="<?=url('index.php/es');?>" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/es.svg')?></span> Spain</a>
+			<a href="<?=url('index.php/de');?>" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/de.svg')?></span> Germany</a>
 		</div>
 	</div><!-- location -->
 
@@ -100,7 +100,7 @@
                                 	<ul>
                                     	<li>
                                             <div class="product-name"><?=$lang_content->prize1?></div>
-                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1080" target="_blank"><?=$lang_content->learn_more?></a></div>
+                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1060" target="_blank"><?=$lang_content->learn_more?></a></div>
                                         </li>
                                         <li>
                                             <div class="product-name"><?=$lang_content->prize2?></div>
@@ -108,7 +108,7 @@
                                         </li>
                                         <li>
                                             <div class="product-name"><?=$lang_content->prize3?></div>
-                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1060" target="_blank"><?=$lang_content->learn_more?></a></div>
+                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1080" target="_blank"><?=$lang_content->learn_more?></a></div>
                                         </li>
                                         <li>
                                             <div class="product-name"><?=$lang_content->prize4?></div>
@@ -437,7 +437,7 @@
                                 	<ul>
                                     	<li>
                                             <div class="product-name"><?=$lang_content->prize1?></div>
-                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1080" target="_blank"><?=$lang_content->learn_more?></a></div>
+                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1060" target="_blank"><?=$lang_content->learn_more?></a></div>
                                         </li>
                                         <li>
                                             <div class="product-name"><?=$lang_content->prize2?></div>
@@ -445,7 +445,7 @@
                                         </li>
                                         <li>
                                             <div class="product-name"><?=$lang_content->prize3?></div>
-                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1060" target="_blank"><?=$lang_content->learn_more?></a></div>
+                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1080" target="_blank"><?=$lang_content->learn_more?></a></div>
                                         </li>
                                         <li>
                                             <div class="product-name"><?=$lang_content->prize4?></div>

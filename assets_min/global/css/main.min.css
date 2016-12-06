@@ -18,6 +18,34 @@
 
 /* main.css
 ======================================= */
+body.lang-ru #prize-meter .header.clear .intro .line1 {
+  font-size: 12px; }
+
+body.lang-ru #prize-meter .header.clear .intro .line3 {
+  font-size: 26px;
+  padding-bottom: 15px; }
+
+body.lang-ru #prize-meter .header.clear .total .icon {
+  top: 140px; }
+
+body.lang-cn #prize-meter .header.clear .intro .line3 {
+  padding-bottom: 10px; }
+
+body.lang-cn #prize-meter .header.clear .total .icon {
+  top: 140px; }
+
+body.lang-br #prize-meter .header.clear .intro .line3 {
+  padding-bottom: 10px; }
+
+body.lang-br #prize-meter .header.clear .total .icon {
+  top: 125px; }
+
+body.lang-es #prize-meter .header.clear .intro .line3 {
+  padding-bottom: 10px; }
+
+body.lang-es #prize-meter .header.clear .total .icon {
+  top: 145px; }
+
 body {
   font-family: 'Open Sans', 'Trebuchet MS', Helvetica, sans-serif;
   font-size: 12px;
@@ -29,14 +57,13 @@ body {
   height: 100%;
   -webkit-font-smoothing: antialiased;
   background-image: url("../img/background-mobile.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
 
 @media (min-width: 1024px) {
   body {
-    background-image: url("../img/background.jpg");
-    background-size: cover; } }
+    background-image: url("../img/background.jpg"); } }
 
 html {
   box-sizing: border-box;
@@ -164,7 +191,11 @@ body.lang-cn {
     visibility: visible;
     opacity: 1;
     -webkit-transform: scaleY(1);
-            transform: scaleY(1); }
+            transform: scaleY(1);
+    overflow: scroll; }
+    @media (min-width: 1024px) {
+      #location.open .menu {
+        overflow: hidden; } }
 
 /* Main Intro
 ===================================================== */
@@ -575,7 +606,7 @@ body.lang-cn {
     #prize-meter .intro .line3 {
       font-family: GeForceLight, sans-serif;
       color: #fff;
-      font-size: 49px;
+      font-size: 30px;
       width: 127px; }
   #prize-meter .total .number {
     font-family: GeForce, sans-serif;
@@ -586,7 +617,7 @@ body.lang-cn {
     padding: 20px 0; }
   #prize-meter .total .icon {
     position: absolute;
-    top: 138px;
+    top: 115px;
     left: 50%;
     margin-left: -15px;
     width: 30px;

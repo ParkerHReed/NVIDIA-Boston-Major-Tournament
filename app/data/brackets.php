@@ -21,8 +21,8 @@
 				'title' => $lang_content->match_1,
 				'series' => $lang_content->round_type,
 				'date' => 'December 7th, 2016 - 10:00',
-				'team1' => 'tbd',
-				'team2' => 'tbd',
+				'team1' => 'vi',
+				'team2' => 'ig',
 				'results' => 'vs'
 			],
 			'2' =>
@@ -30,8 +30,8 @@
 				'title' => $lang_content->match_2,
 				'series' => 'December 7th, 2016 - 13:30',
 				'date' => 'December 7th, 2016 - 13:30',
-				'team1' => 'tbd',
-				'team2' => 'tbd',
+				'team1' => 'eg',
+				'team2' => 'wi',
 				'results' => 'vs'
 			],
     		'3' =>
@@ -39,8 +39,8 @@
 				'title' => $lang_content->match_3,
 				'series' => 'December 7th, 2016 - 17:00',
 				'date' => 'December 7th, 2016 - 17:00',
-				'team1' => 'tbd',
-				'team2' => 'tbd',
+				'team1' => 'cp',
+				'team2' => 'wg',
 				'results' => 'vs'
     		],
 			'4' =>
@@ -48,8 +48,8 @@
 				'title' => $lang_content->match_4,
 				'series' => 'December 7th, 2016 - 20:30',
 				'date' => 'December 7th, 2016 - 20:30',
-				'team1' => 'tbd',
-				'team2' => 'tbd',
+				'team1' => 'og',
+				'team2' => 'mv',
 				'results' => 'vs'
 			]
     	]
@@ -63,126 +63,130 @@
 	[
 		'matches' =>
 		[
+			
 			'1' =>
 			[
-				'title' => $lang_content->lower_bracket_round_3,
-				'series' => $lang_content->match_2,
-				'date' => 'October 1st, 2016 - 11:00am EDT',
-				'team1' => 'optic',
-				'team2' => 'g2',
+				'title' => $lang_content->match_1,
+				'series' => $lang_content->round_type,
+				'date' => 'December 8th, 2016 - 10:00',
+				'team1' => 'dc',
+				'team2' => 'tf',
 				'results' => 'vs'
 			],
 			'2' =>
 			[
-				'title' => '',
-				'series' => $lang_content->match_3,
-				'date' => '12:30pm EDT',
-				'team1' => '',
-				'team2' => '',
+				'title' => $lang_content->match_2,
+				'series' => 'December 8th, 2016 - 13:30',
+				'date' => 'December 8th, 2016 - 13:30',
+				'team1' => 'eh',
+				'team2' => 'np',
 				'results' => 'vs'
 			],
-			'3' =>
-			[
-				'title' => '',
-				'series' => $lang_content->match_4,
-				'date' => '2:00pm EDT',
-				'team1' => '',
-				'team2' => '',
+    		'3' =>
+    		[
+				'title' => $lang_content->match_3,
+				'series' => 'December 8th, 2016 - 17:00',
+				'date' => 'December 8th, 2016 - 17:00',
+				'team1' => 'af',
+				'team2' => 'nb',
 				'results' => 'vs'
-			],
+    		],
 			'4' =>
 			[
-				'title' => $lang_content->lower_bracket_round_4,
-				'series' => $lang_content->match_1,
-				'date' => '3:30pm EDT',
-				'team1' => '',
-				'team2' => '',
-				'results' => 'vs'
-			],
-			'5' =>
-			[
-				'title' => '',
-				'series' => $lang_content->match_2,
-				'date' => '5:00pm EDT',
-				'team1' => '',
-				'team2' => '',
-				'results' => 'vs'
-			],
-			'6' =>
-			[
-				'title' => '',
-				'series' => $lang_content->match_3,
-				'date' => '6:30pm EDT',
-				'team1' => '',
-				'team2' => '',
-				'results' => 'vs'
-			],
-			'7' =>
-			[
-				'title' => $lang_content->lower_bracket_round_5,
-				'series' => $lang_content->match_1,
-				'date' => '8:00pm EDT',
-				'team1' => '',
-				'team2' => '',
-				'results' => 'vs'
-			],
-			'8' =>
-			[
-				'title' => '',
-				'series' => $lang_content->match_2,
-				'date' => '9:30pm EDT',
-				'team1' => '',
-				'team2' => '',
+				'title' => $lang_content->match_4,
+				'series' => 'December 8th, 2016 - 20:30',
+				'date' => 'December 8th, 2016 - 20:30',
+				'team1' => 'lg',
+				'team2' => 'ld',
 				'results' => 'vs'
 			]
-		]
+    	]
 	];
 
 
-	/* Day 3
+	/* Day 3 QUARTERFINALS
 	----------------------------------------------------------- */
 
 	$bracket_days['3'] =
 	[
 		'matches' =>
 		[
+			
 			'1' =>
 			[
-				'title' => $lang_content->upper_bracket_semilfinals,
-				'series' => $lang_content->match_1,
-				'date' => 'September 30th, 2016 - 10am PTD',
-				'team1' => 'mvpphoenix',
-				'team2' => 'wings',
+				'title' => $lang_content->match_1,
+				'series' => $lang_content->round_type,
+				'date' => 'December 9th, 2016 - 10:00',
+				'team1' => 'tbd',
+				'team2' => 'tbd',
 				'results' => 'vs'
 			],
 			'2' =>
 			[
-				'title' => $lang_content->upper_bracket_semilfinals,
-				'series' => $lang_content->match_1,
-				'date' => '',
-				'team1' => 'ehome',
-				'team2' => 'evilgeniuses',
+				'title' => $lang_content->match_2,
+				'series' => 'December 9th, 2016 - 13:30',
+				'date' => 'December 9th, 2016 - 13:30',
+				'team1' => 'tbd',
+				'team2' => 'tbd',
 				'results' => 'vs'
 			],
-			'3' =>
-			[
-				'title' => $lang_content->lower_bracket_round_2,
-				'series' => $lang_content->match_1,
-				'date' => '',
-				'team1' => 'alliance',
-				'team2' => 'fnatic',
+    		'3' =>
+    		[
+				'title' => $lang_content->match_3,
+				'series' => 'December 9th, 2016 - 17:00',
+				'date' => 'December 9th, 2016 - 17:00',
+				'team1' => 'tbd',
+				'team2' => 'tbd',
 				'results' => 'vs'
-			],
+    		],
 			'4' =>
 			[
-				'title' => $lang_content->lower_bracket_round_2,
-				'series' => $lang_content->match_1,
-				'date' => '',
-				'team1' => 'newbee',
-				'team2' => 'liquid',
+				'title' => $lang_content->match_4,
+				'series' => 'December 9th, 2016 - 20:30',
+				'date' => 'December 9th, 2016 - 20:30',
+				'team1' => 'tbd',
+				'team2' => 'tbd',
+				'results' => 'vs'
+			]
+    	]
+	];
+
+	/* Day 4 FINALS
+	----------------------------------------------------------- */
+
+	$bracket_days['4'] =
+	[
+		'matches' =>
+		[
+			
+			'1' =>
+			[
+				'title' => $lang_content->match_1,
+				'series' => $lang_content->round_type,
+				'date' => 'December 10th, 2016 - 10:00',
+				'team1' => 'tbd',
+				'team2' => 'tbd',
 				'results' => 'vs'
 			],
-		]
+			'2' =>
+			[
+				'title' => $lang_content->match_2,
+				'series' => 'December 10th, 2016 - 13:30',
+				'date' => 'December 10th, 2016 - 13:30',
+				'team1' => 'tbd',
+				'team2' => 'tbd',
+				'results' => 'vs'
+			],
+    		'3' =>
+    		[
+				'title' => $lang_content->match_3,
+				'series' => 'December 10th, 2016 - 18:00',
+				'date' => 'December 10th, 2016 - 18:00',
+				'team1' => 'tbd',
+				'team2' => 'tbd',
+				'results' => 'vs'
+    		]
+    	]
 	];
 
 

@@ -9,7 +9,7 @@
 	[
 		'title' => 'BOSTON MAJOR | #GAMEREADY - Cheer on your favorite teams for a chance to win a GeForce GTX 10-Series graphics card.',
 		'main_callout' => 'Geforce<sup>&reg;</sup> gtx 1080',
-		'sub_callout' => 'The Official Gaming Platform Of The Boston Major',
+		'sub_callout' => 'THE OFFICIAL GRAPHICS PLATFORM OF THE BOSTON MAJOR',
 		'intro_line1' => 'Cheer on your favorite teams for a chance to win a GeForce GTX 10-Series graphics card.',
 		'description' => '',
 		'hashtag' => '#gameready',
@@ -25,7 +25,7 @@
 		'prize4' => 'GeForce GTX 10-series Notebooks',
 		'learn_more' => 'Learn More >',
 		'rep_title' => 'Rep Your Team',
-		'copyright' => '© '.date('Y').' NVIDIA Corporation  |  © '.date('Y').' Valve Corporation, all rights reserved. | *Max 25 individual entries per matchup | <a href="index.php/official_rules" class="rules" target="_blank" onclick="trackOutboundLink(this.href)">Official Rules</a>',
+		'copyright' => '© '.date('Y').' NVIDIA Corporation  |  © '.date('Y').' Valve Corporation, all rights reserved. | *Max 25 individual entries per matchup | <a href="/index.php/official_rules" class="rules" target="_blank" onclick="trackOutboundLink(this.href)">Official Rules</a>',
 		'day' => 'Day',
 
 		'round_type' => 'Single Elimination',
@@ -81,7 +81,7 @@
 		'prize4' => 'GeForce GTX 10-series Notebooks',
 		'learn_more' => 'Узнайте больше >',
 		'rep_title' => 'Поддержи свою команду',
-		'copyright' => '© '.date('Y').' NVIDIA Corporation  |  © '.date('Y').' Valve Corporation, all rights reserved. | *Max 25 individual entries per matchup | <a href="index.php/official_rules" class="rules" target="_blank" onclick="trackOutboundLink(this.href)">официальные правила</a>',
+		'copyright' => '© '.date('Y').' NVIDIA Corporation  |  © '.date('Y').' Valve Corporation, all rights reserved. | *Max 25 individual entries per matchup | <a href="official_rules" class="rules" target="_blank" onclick="trackOutboundLink(this.href)">официальные правила</a>',
 		'day' => 'Day',
 		
 		'round_type' => 'выбывание',
@@ -138,7 +138,7 @@
 		'prize4' => 'GeForce GTX 10-series Notebooks',
 		'learn_more' => 'Saiba Mais >',
 		'rep_title' => 'Represente seu time',
-		'copyright' => '© '.date('Y').' NVIDIA Corporation  |  © '.date('Y').' Valve Corporation, all rights reserved. | *Max 25 individual entries per matchup | <a href="index.php/official_rules" class="rules" target="_blank" onclick="trackOutboundLink(this.href)">regras oficiais</a>',
+		'copyright' => '© '.date('Y').' NVIDIA Corporation  |  © '.date('Y').' Valve Corporation, all rights reserved. | *Max 25 individual entries per matchup | <a href="official_rules" class="rules" target="_blank" onclick="trackOutboundLink(this.href)">regras oficiais</a>',
 		'day' => 'dia',
 
 		'round_type' => 'eliminación directa',
@@ -190,7 +190,7 @@
 		'prize4' => 'GeForce GTX 10-series Notebooks',
 		'learn_more' => 'Más información >',
 		'rep_title' => 'Representa a tu Equipo',
-		'copyright' => '© '.date('Y').' NVIDIA Corporation  |  © '.date('Y').' Valve Corporation, all rights reserved. | *Max 25 individual entries per matchup | <a href="index.php/official_rules" class="rules" target="_blank" onclick="trackOutboundLink(this.href)">reglas Oficiales</a>',
+		'copyright' => '© '.date('Y').' NVIDIA Corporation  |  © '.date('Y').' Valve Corporation, all rights reserved. | *Max 25 individual entries per matchup | <a href="official_rules" class="rules" target="_blank" onclick="trackOutboundLink(this.href)">reglas Oficiales</a>',
 		'day' => 'día',
 
 		'round_type' => 'Single Elimination',
@@ -246,7 +246,7 @@
 		'prize4' => 'GeForce GTX 10-series Notebooks',
 		'learn_more' => 'Mehr erfahren >',
 		'rep_title' => 'Repräsentiere dein Team',
-		'copyright' => '© '.date('Y').' NVIDIA Corporation  |  © '.date('Y').' Valve Corporation, all rights reserved. | *Max 25 individual entries per matchup | <a href="index.php/official_rules" class="rules" target="_blank" onclick="trackOutboundLink(this.href)">offiziellen Regeln</a>',
+		'copyright' => '© '.date('Y').' NVIDIA Corporation  |  © '.date('Y').' Valve Corporation, all rights reserved. | *Max 25 individual entries per matchup | <a href="official_rules" class="rules" target="_blank" onclick="trackOutboundLink(this.href)">offiziellen Regeln</a>',
 		'day' => 'Tag',
 
 		'round_type' => 'Single Elimination',
@@ -302,7 +302,7 @@
 		'prize4' => 'GeForce GTX 10-series Notebooks',
 		'learn_more' => '了解更多>',
 		'rep_title' => '代表你的战队',
-		'copyright' => '© '.date('Y').' NVIDIA Corporation  |  © '.date('Y').' Valve Corporation, all rights reserved. | *Max 25 individual entries per matchup | <a href="index.php/official_rules" class="rules" target="_blank" onclick="trackOutboundLink(this.href)">正式规则</a>',
+		'copyright' => '© '.date('Y').' NVIDIA Corporation  |  © '.date('Y').' Valve Corporation, all rights reserved. | *Max 25 individual entries per matchup | <a href="official_rules" class="rules" target="_blank" onclick="trackOutboundLink(this.href)">正式规则</a>',
 		'day' => '天',
 
 		'round_type' => '单局淘汰',

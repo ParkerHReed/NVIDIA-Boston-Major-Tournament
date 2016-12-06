@@ -50,6 +50,12 @@
 			'hashtag' => 'LGD.ForeverYoung',
 			'name' => 'LGD.Forever Young'
 		],
+		'ld' =>
+		[
+			'key' => 'ly',
+			'hashtag' => 'LGD',
+			'name' => 'LGD'
+		],
 		'mv' =>
 		[
 			'key' => 'mv',
@@ -83,8 +89,8 @@
         'vi' =>
         [
             'key' => 'vi',
-            'hashtag' => 'Virtuous',
-            'name' => 'Virtuous'
+            'hashtag' => 'VirtusPro',
+            'name' => 'Virtus Pro'
         ],
         'wg' =>
         [
