@@ -81,6 +81,10 @@ body.lang-br #prize-meter .header.clear .total .icon {
     body.lang-br #prize-meter .header.clear .total .icon {
       top: 125px; } }
 
+@media (min-width: 1280px) {
+  body.lang-es #main-intro .holder .tournament-info .line1 {
+    padding: 0 12%; } }
+
 body.lang-es #prize-meter .header.clear .intro {
   padding: 15px 0 0 0; }
   @media (min-width: 1024px) {
@@ -365,7 +369,7 @@ body.lang-cn {
             padding: 0 7%;
             line-height: 30px;
             font-size: 25px;
-            margin-top: 70px; } }
+            margin-top: 50px; } }
         @media (min-width: 1700px) {
           #main-intro .holder .tournament-info .line1 {
             padding: 0 8%; } }
@@ -452,6 +456,12 @@ body.lang-cn {
       letter-spacing: 2px;
       padding-top: 13px;
       padding-left: 1px; }
+      @media (min-width: 414px) {
+        #brackets .bracket-group .match-entry .versus {
+          left: 52.5%; } }
+      @media (min-width: 768px) {
+        #brackets .bracket-group .match-entry .versus {
+          left: 51.5%; } }
   #brackets .teambox-inside {
     background-color: #fff;
     width: 100%;

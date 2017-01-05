@@ -94,6 +94,17 @@ body.lang-br {
 }
 
 body.lang-es {
+	#main-intro {
+		.holder {
+			.tournament-info {
+				.line1 {
+					@media (min-width:1280px) {
+						padding: 0 12%;
+					}
+				}
+			}
+		}
+	}
 	#prize-meter {
 		.header.clear {
 			.intro {
@@ -429,7 +440,7 @@ body.lang-cn
 					padding: 0 7%;
 					line-height: 30px;
 					font-size: 25px;
-					margin-top: 70px;
+					margin-top: 50px; 
 				}
 				@media (min-width:1700px) {
 					padding: 0 8%;
@@ -527,6 +538,12 @@ body.lang-cn
 				letter-spacing: 2px;
 				padding-top: 13px;
 				padding-left: 1px;
+				@media (min-width:414px) {
+					left: 52.5%;
+				}
+				@media (min-width:768px) {
+					left: 51.5%;
+				}
 			}
 		}
 	}
