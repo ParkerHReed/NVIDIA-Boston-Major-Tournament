@@ -50,9 +50,9 @@
 			'hashtag' => 'LGD.ForeverYoung',
 			'name' => 'LGD.Forever Young'
 		],
-		'ld' =>
+		'gd' =>
 		[
-			'key' => 'ly',
+			'key' => 'gd',
 			'hashtag' => 'LGD',
 			'name' => 'LGD'
 		],
@@ -103,6 +103,13 @@
             'key' => 'wi',
             'hashtag' => 'WingsGaming',
             'name' => 'Wings Gaming'
+       
+		],
+		 'fn' =>
+        [
+            'key' => 'fn',
+            'hashtag' => 'Fnatic',
+            'name' => 'Fnatic'
        
 		],
 		 'tbd' =>

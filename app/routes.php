@@ -27,11 +27,11 @@ $app->map( '/export', function() use ( $app )
 
 	if( isset($_POST['login']) )
 	{
-		if( $_POST['username'] == 'moreyellow' && $_POST['password'] == '8FTrHFDF' )
+		if( $_POST['username'] == 'moreyellow' && $_POST['password'] == 'password' )
 		{
 			$_SESSION['admin'] = 1;
 			unset( $_SESSION['error'] );
-			redirect('index.php/export');
+			redirect('export_data');
 		}
 		else
 		{
@@ -56,7 +56,7 @@ $app->get( '/export_data', function( $lang = null ) use ( $app, $lang_array )
 
 	if( isset($_GET['day']) && isset($_GET['match'])  )
 	{
-		$fileName = 'dota2_gameready-day_'.$_GET['day'].'-match_'.$_GET['match'].'-'.time().'.csv';
+		$fileName = 'bostonmajor_gameready-day_'.$_GET['day'].'-match_'.$_GET['match'].'-'.time().'.csv';
 
 		header("Cache-Control: must-revalidate, post-check=0, pre-check=0");
 		header('Content-Description: File Transfer');

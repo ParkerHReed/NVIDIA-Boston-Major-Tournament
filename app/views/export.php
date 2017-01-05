@@ -31,7 +31,7 @@
 		if( !isset($_SESSION['admin']) )
 		{
 			?>
-				<form action="<?=url('/export')?>" method="post" accept-charset="utf-8">
+				<form action="<?=url('index.php/export')?>" method="post" accept-charset="utf-8">
 
 					<input type="hidden" name="login" value="1" />
 					<input type="text" name="username" placeholder="Username" style="margin-bottom: 10px;" /><br>

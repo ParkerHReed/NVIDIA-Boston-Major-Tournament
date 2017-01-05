@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 
-<title>BOSTON MAJOR | #GAMEREADY</title>
+<title>ESL-ONE Genting | #GAMEREADY</title>
 	<meta name="description" content="<?=$lang_content->description?>">
 	<link rel="canonical" href="<?=url()?>">
 
@@ -61,33 +61,12 @@
 	?>
 
 	<div id="location">
-
 		<a href="#" class="current"><?=svg('/assets_min/global/img/flags/'.$lang.'.svg')?></a>
-
 		<div class="menu">
-
 			<a href="#" class="btn-close">x</a>
-
-			<a href="<?=url('/');?>" class="option">
-				<span class="flag"><?=svg('/assets_min/global/img/flags/us.svg')?></span> USA
-			</a>
-			<!--<a href="#" class="option">
-				<span class="flag"></span> Russia
-			</a>
-			<a href="#" class="option">
-				<span class="flag"></span> China
-			</a>
-			<a href="#" class="option">
-				<span class="flag"></span> Brazil
-			</a>
-			<a href="#" class="option">
-				<span class="flag"></span> Spain
-			</a>
-			<a href="#" class="option">
-				<span class="flag"></span> Germany
-			</a>-->
+			<a href="<?=url('index.php/us');?>" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/us.svg')?></span> USA</a>
+			
 		</div>
-
 	</div><!-- location -->
 
 
@@ -98,59 +77,50 @@
 		========================================================== */
 	?>
 
-	<div id="main-intro">
+	<div id="main-intro" style="position: relative; z-index:3;">
 		<div class="holder">
 
 			<div class="header-tagline">
-            	<div class="main-callout">Geforce<sup>&reg;</sup> GTX 10-Series</div>
-                <div class="sub-callout">The Official Gaming Platform of The Boston Major</div>
+            	<div class="main-callout"><?=$lang_content->main_callout?></div>
+                <div class="sub-callout"><?=$lang_content->sub_callout?></div>
             </div>
 
-			<div class="gameready" style="padding:0;">
-<img src="<?=url('/assets_min/global/img/trophy-logos-lockup-mobile-size.png')?>" style="width:70%;margin-top: 50px;max-width:600px;">
-<!--
-				<div class="esl-one" style="vertical-align:top;margin-top:11%;"><img src="<?=url('/assets_min/global/img/logo-boston-major.png')?>"></div>
-                <div class="divider" style=""><div style='height:50px;display:inline-block;width:1px;top:0;background-color:red;'></div><img src="<?=url('/assets_min/global/img/line-break.png')?>" style="opacity:0;"></div>
-				<div class="counterstrike"><img src="<?=url('/assets_min/global/img/Dota-2-logo.png')?>"></div>
-                <div class=""><img src="<?=url('/assets_min/global/img/trophy.png')?>" style="width:100%;"></div>-->
+			<div class="gameready" style="padding:0; text-align: center;">
+<img src="<?=url('assets_min/global/img/esl.png')?>" style="width: 100%; margin-top: 20px; max-width: 410px; margin-bottom: 40px;">
 			</div>
 
-			<div class="shield" style="height:auto;">
+			<div class="shield" style="height: auto; text-align: center;">
 
-				<div class="content" style="position:relative;top:auto;margin-top:-10%;">
+				<div class="content" style="position:relative;top:auto;margin-top: 10px;">
 
-					<div class="line1"><?=$lang_content->intro_line1?></div>
-            <div style="font-size:16px;font-weight:bold;color:#76b900;padding-top:10px;text-transform:uppercase;margin-bottom:30px;">Cheering Begins December 7</div>
-					<div class="line2" style="padding:0 7% 30px 7%;font-size:12px;"><?=$lang_content->intro_line2?> <?=$lang_content->prize_meter_reset?> Prize meter resets each day.</div>
+					<div class="line1" style="font-size: 21px; line-height: 28px; font-weight: bold; color: #fff; text-transform: uppercase; margin-bottom: 10px; max-width: 500px; margin: 0 auto; padding-bottom: 15px; font-family: GeForceLight, sans-serif;"><?=$lang_content->intro_line1?></div>
+					<div class="line2" style="padding:0 7% 30px 7%;font-size:12px; max-width: 525px; margin: 0 auto;"><?=$lang_content->intro_line2?> <?=$lang_content->prize_meter_reset?></div>
 
                     <div class="graphics-card-callout">
-                            <div class="main-title">geforce<sup>&reg;</sup> gtx 10-series</div>
-                            <div class="sub-title">Experience game-changing performance and power efficiency in every game</div>
+                    
                             
                             <div class="product-info">
                             	<div class="product-column">
                                 	<ul>
                                     	<li>
-                                            <div class="product-name">GeForce GTX 1080</div>
-                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1080" target="_blank">Learn More ></a></div>
+                                            <div class="product-name"><?=$lang_content->prize3?></div>
+                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1080" target="_blank"><?=$lang_content->learn_more?></a></div>
                                         </li>
                                         <li>
-                                            <div class="product-name">GeForce GTX 1070</div>
-                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1070" target="_blank">Learn More ></a></div>
+                                            <div class="product-name"><?=$lang_content->prize2?></div>
+                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1070" target="_blank"><?=$lang_content->learn_more?></a></div>
                                         </li>
                                         <li>
-                                            <div class="product-name">GeForce GTX 1060</div>
-                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1060" target="_blank">Learn More ></a></div>
+                                            <div class="product-name"><?=$lang_content->prize1?></div>
+                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1060" target="_blank"><?=$lang_content->learn_more?></a></div>
                                         </li>
                                         <li>
-                                            <div class="product-name">GeForce GTX 10-series Notebooks</div>
-                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/notebook" target="_blank">Learn More ></a></div>
+                                            <div class="product-name"><?=$lang_content->prize4?></div>
+                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/notebook" target="_blank"><?=$lang_content->learn_more?></a></div>
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="product-image"><img src="<?=url('/assets_min/global/img/graphicscard.png')?>"</div>
-                            </div>
-                       </div>
+                      	  </div>
                     </div>
                
 					
@@ -169,30 +139,30 @@
 		========================================================== */
 	?>
 
-	<div id="prize-meter">
+	<div id="prize-meter" style="z-index: 3;">
 
 		<div class="header clear">
 
 			<div class="intro">
 				<div class="line1"><?=$lang_content->prize_meter?></div>
-                <div class="line3"><?=$lang_content->lower_bracket_round_1?> </div>
+                <div class="line3" style="font-size: 43px;"><?=$lang_content->lower_bracket_round_1?> </div>
 			</div>
 
 			<div class="total" style="margin-top:0;">
-				<div class="number" id="total-count" style="opacity:0;" >0</div>
+				<div class="number" id="total-count" style=" opacity: 1;" >0</div>
 				<div class="icon"><?=svg('/assets_min/global/img/twitter.svg')?></div>
 			</div>
 
 		</div>
 <style>
-@media (min-width:1200px) {
+@media (min-width: 1024px) {
     .notify-mobile {
     display: none;
         
     }
     
 }
-@media (max-width: 1201px) {
+@media (max-width: 1024px) {
     #brackets {
         opacity: .5;
         
@@ -212,17 +182,16 @@
 }
 </style>
         <div class="notify-mobile">
-
-<div style="float:left;position: relative;;width:calc(100%);box-sizing:border-box;margin:0px;padding:30px 25px;background-color:#f0f0f0;">
-<div style="margin-bottom:10px;float:left;position:relative;text-transform:uppercase;color:#000;font-weight:bold;" class="notify-msg">Notify me when cheering Begins</div>
-<div class="notify-form">
-<input style="float:left;height:40px;box-sizing:border-box;padding:10px;color:#000;outline:none;width:calc(100% - 80px);border:0;" type="email" class="email" maxlength="50" placeholder="Enter your email" /><button style="float:left;width:80px;font-size:90%;height:40px;background-color:#76b701;border:0;text-transform:uppercase;font-weight:bold;" type="submit" class="submit-button">Submit</button>
-<div class="invalid" style="display:none;color:red;margin-top:15px;float:left;font-weight:bold;text-transform:uppercase;">Invalid Email</div>
-</div>
-<div class="thankyou" style="display:none;margin-bottom:10px;float:left;position:relative;text-transform:uppercase;color:#000;font-weight:bold;">
-Thank you. You will be notified when the competition begins.
-</div>
-</div>
+			<div style="float:left; position: relative; z-index:2; width:calc(100%); box-sizing:border-box; margin:0px; padding:30px 25px; background-color:#f0f0f0;">
+			<div style="margin-bottom:10px;float:left;position:relative;text-transform:uppercase;color:#000;font-weight:bold;" class="notify-msg">Notify me when cheering Begins</div>
+			<div class="notify-form">
+			<input style="float:left;height:40px;box-sizing:border-box;padding:10px;color:#000;outline:none;width:calc(100% - 80px);border:0;" type="email" class="email" maxlength="50" placeholder="Enter your email" /><button style="float:left;width:80px;font-size:90%;height:40px;background-color:#76b701;border:0;text-transform:uppercase;font-weight:bold; outline:none;" type="submit" class="submit-button">Submit</button>
+			<div class="invalid" style="display:none;color:red;margin-top:15px;float:left;font-weight:bold;text-transform:uppercase;">Invalid Email</div>
+			</div>
+			<div class="thankyou" style="display:none;margin-bottom:10px;float:left;position:relative;text-transform:uppercase;color:#000;font-weight:bold;">
+			Thank you. You will be notified when the competition begins.
+			</div>
+		</div>
 
         </div>
 
@@ -240,7 +209,7 @@ Thank you. You will be notified when the competition begins.
 						</div>
 						<div class="tweets">
 							<div class="label">Tweets</div>
-							<div class="number">10k</div>
+							<div class="number">6k</div>
 						</div>
 					</div>
 
@@ -251,7 +220,7 @@ Thank you. You will be notified when the competition begins.
 						</div>
 						<div class="tweets">
 							<div class="label">Tweets</div>
-							<div class="number">5K</div>
+							<div class="number">3K</div>
 						</div>
 					</div>
 
@@ -290,7 +259,7 @@ Thank you. You will be notified when the competition begins.
 						</div>
 						<div class="tweets">
 							<div class="label">Tweets</div>
-							<div class="number">10K</div>
+							<div class="number">6K</div>
 						</div>
 					</div>
 
@@ -301,7 +270,7 @@ Thank you. You will be notified when the competition begins.
 						</div>
 						<div class="tweets">
 							<div class="label">Tweets</div>
-							<div class="number">20K</div>
+							<div class="number">3K</div>
 						</div>
 					</div>
 
@@ -331,7 +300,7 @@ Thank you. You will be notified when the competition begins.
 	?>
 
 	<div id="brackets">
-        <div style="height:calc(100% + 100px);top:-100px;float:left;width:40%; position: fixed;background-color: rgba(0,0,0,.7);box-shadow:0 0 40px 50px rgba(0,0,0,.7);z-index:9999;" class="notify-desktop">
+        <div style="height:calc(100% + 100px);top:-100px;float:left;width:40%; position: fixed;background-color: rgba(0,0,0,.7);box-shadow:0 0 40px 50px rgba(0,0,0,.7);z-index:2;" class="notify-desktop">
 
             <div style="float:left;position: relative;top:50%;width:calc(100% - 80px);box-sizing:border-box;margin:40px;padding:30px 25px;background-color:#f0f0f0;box-shadow:0 0 18px 4px rgba(0,0,0, .5)">
                 <div style="margin-bottom:10px;float:left;position:relative;text-transform:uppercase;color:#000;font-weight:bold;" class="notify-msg">Notify me when cheering Begins</div>
@@ -408,8 +377,8 @@ $(document).ready(function() {
 									<div class="info">
 										<div class="content">
 											<div class="logo"><img src="<?=url('/assets_min/global/img/logos/'.$team1_found->key.'.png')?>"></div>
-											<div class="number"><span class="num">0000</span><div class="icon"><?=svg('/assets_min/global/img/twitter.svg')?></div></div>
-											<div class="hashtags"><span>#BOSTONMAJOR</span><span>#GAMEREADY</span><span>#<?=$team1_found->hashtag?></span></div>
+											<div class="number"><span class="num">0</span><div class="icon"><?=svg('/assets_min/global/img/twitter.svg')?></div></div>
+											<div class="hashtags"><span>#ESLONE</span><span>#GAMEREADY</span><span>#<?=$team1_found->hashtag?></span></div>
 										</div>
 									</div>
 
@@ -420,7 +389,7 @@ $(document).ready(function() {
 								
                                     <div class="bottom">
 										<?php
-											$hashtags = urlencode( 'BOSTONMAJOR,GameReady,'.$team1_found->hashtag );
+											$hashtags = urlencode( 'ESLONE,GameReady,'.$team1_found->hashtag );
 										?>
 										<span style='background-color:#595959;' href="#" class="button tease" >
 											<span class="icon"><?=svg('/assets_min/global/img/twitter.svg')?></span>
@@ -443,8 +412,8 @@ $(document).ready(function() {
 									<div class="info">
 										<div class="content">
 											<div class="logo"><img src="<?=url('/assets_min/global/img/logos/'.$team2_found->key.'.png')?>"></div>
-											<div class="number"><span class="num">0000</span> <div class="icon"><?=svg('/assets_min/global/img/twitter.svg')?></div></div>
-											<div class="hashtags"><span>#BOSTONMAJOR</span><span>#GAMEREADY</span><span>#<?=$team2_found->hashtag?></span></div>
+											<div class="number"><span class="num">0</span> <div class="icon"><?=svg('/assets_min/global/img/twitter.svg')?></div></div>
+											<div class="hashtags"><span>#ESLONE</span><span>#GAMEREADY</span><span>#<?=$team2_found->hashtag?></span></div>
 										</div>
 									</div>
 
@@ -456,7 +425,7 @@ $(document).ready(function() {
                                     
                                     <div class="bottom">
 										<?php
-											$hashtags = urlencode( 'BOSTONMAJOR,GameReady,'.$team2_found->hashtag );
+											$hashtags = urlencode( 'ESLONE,GameReady,'.$team2_found->hashtag );
 										?>
 										<span style='background-color:#595959;' href="#" class="button tease">
 											<span class="icon"><?=svg('/assets_min/global/img/twitter.svg')?></span>
@@ -489,27 +458,27 @@ $(document).ready(function() {
 	?>
 
 		 <div class="graphics-card-callout-mobile" style="float:left;">
-                            <div class="main-title">geforce&reg; gtx 10-series</div>
-                            <div class="sub-title">Experience game-changing performance and power efficiency in every game</div>
+                            <div class="main-title"><?=$lang_content->gc_main_callout?></div>
+                            <div class="sub-title"><?=$lang_content->gc_sub_title?></div>
                             
                             <div class="product-info">
                             	<div class="product-column">
                                 	<ul>
                                     	<li>
-                                            <div class="product-name">GeForce GTX 1080</div>
-                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1080" target="_blank">Learn More ></a></div>
+                                            <div class="product-name"><?=$lang_content->prize3?></div>
+                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1080" target="_blank"><?=$lang_content->learn_more?></a></div>
                                         </li>
                                         <li>
-                                            <div class="product-name">GeForce GTX 1070</div>
-                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1070" target="_blank">Learn More ></a></div>
+                                            <div class="product-name"><?=$lang_content->prize2?></div>
+                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1070" target="_blank"><?=$lang_content->learn_more?></a></div>
                                         </li>
                                         <li>
-                                            <div class="product-name">GeForce GTX 1060</div>
-                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1060" target="_blank">Learn More ></a></div>
+                                            <div class="product-name"><?=$lang_content->prize1?></div>
+                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1060" target="_blank"><?=$lang_content->learn_more?></a></div>
                                         </li>
                                         <li>
-                                            <div class="product-name">GeForce GTX 10-series Notebooks</div>
-                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/notebook" target="_blank">Learn More ></a></div>
+                                            <div class="product-name"><?=$lang_content->prize4?></div>
+                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/notebook" target="_blank"><?=$lang_content->learn_more?></a></div>
                                         </li>
                                     </ul>
                                 </div>

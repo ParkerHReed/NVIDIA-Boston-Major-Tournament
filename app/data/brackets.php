@@ -19,19 +19,19 @@
 			'1' =>
 			[
 				'title' => $lang_content->match_1,
-				'series' => $lang_content->round_type,
-				'date' => 'December 7th, 2016 - 10:00',
+				'series' => '',
+				'date' => 'January 6th, 2017 - 12:30 MYT',
 				'team1' => 'vi',
-				'team2' => 'ig',
+				'team2' => 'fn',
 				'results' => 'vs'
 			],
 			'2' =>
 			[
 				'title' => $lang_content->match_2,
-				'series' => 'December 7th, 2016 - 13:30',
-				'date' => 'December 7th, 2016 - 13:30',
-				'team1' => 'eg',
-				'team2' => 'wi',
+				'series' => 'January 6th, 2017 - 12:30 MYT',
+				'date' => 'January 6th, 2017 - 12:30 MYT',
+				'team1' => 'nb',
+				'team2' => 'np',
 				'results' => 'vs'
 			],
     		'3' =>
@@ -39,8 +39,8 @@
 				'title' => $lang_content->match_3,
 				'series' => 'December 7th, 2016 - 17:00',
 				'date' => 'December 7th, 2016 - 17:00',
-				'team1' => 'cp',
-				'team2' => 'wg',
+				'team1' => 'dc',
+				'team2' => 'ex',
 				'results' => 'vs'
     		],
 			'4' =>
@@ -48,8 +48,8 @@
 				'title' => $lang_content->match_4,
 				'series' => 'December 7th, 2016 - 20:30',
 				'date' => 'December 7th, 2016 - 20:30',
-				'team1' => 'og',
-				'team2' => 'mv',
+				'team1' => 'wg',
+				'team2' => 'wi',
 				'results' => 'vs'
 			]
     	]
@@ -67,7 +67,7 @@
 			'1' =>
 			[
 				'title' => $lang_content->match_1,
-				'series' => $lang_content->round_type,
+				'series' => $lang_content->best_of_3,
 				'date' => 'December 8th, 2016 - 10:00',
 				'team1' => 'dc',
 				'team2' => 'tf',
@@ -97,7 +97,7 @@
 				'series' => 'December 8th, 2016 - 20:30',
 				'date' => 'December 8th, 2016 - 20:30',
 				'team1' => 'lg',
-				'team2' => 'ld',
+				'team2' => 'gd',
 				'results' => 'vs'
 			]
     	]
@@ -115,7 +115,7 @@
 			'1' =>
 			[
 				'title' => $lang_content->match_1,
-				'series' => $lang_content->round_type,
+				'series' => $lang_content->best_of_3,
 				'date' => 'December 9th, 2016 - 10:00',
 				'team1' => 'tbd',
 				'team2' => 'tbd',
@@ -162,7 +162,7 @@
 			'1' =>
 			[
 				'title' => $lang_content->match_1,
-				'series' => $lang_content->round_type,
+				'series' => $lang_content->best_of_5,
 				'date' => 'December 10th, 2016 - 10:00',
 				'team1' => 'tbd',
 				'team2' => 'tbd',

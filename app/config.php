@@ -56,8 +56,8 @@ else
 		'show_errors' => true,
 		'templates.path' => 'app/views/',
 
-		'base_url' => 'http://192.168.1.232:8888/bostondota/',
-		'assets_url'  => 'http://192.168.1.232:8888/bostondota/assets'
+		'base_url' => 'http://localhost:8888/esl/',
+		'assets_url'  => 'http://localhost:8888/esl/assets'
 	];
 
 	$services =

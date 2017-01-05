@@ -53,7 +53,7 @@
 			<a href="#" class="btn-close">x</a>
 			<a href="<?=url('index.php/us');?>" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/us.svg')?></span> USA</a>
 			<a href="<?=url('index.php/ru');?>" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/ru.svg')?></span> Russia</a>
-			<a href="<?=url('index.php/cn');?>" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/cn.svg')?></span> China</a>
+			<a href="<?=url('index.php/cn');?>" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/cn.svg')?></span> Thailand</a>
 			<a href="<?=url('index.php/br');?>" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/br.svg')?></span> Brazil</a>
 			<a href="<?=url('index.php/es');?>" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/es.svg')?></span> Spain</a>
 			<a href="<?=url('index.php/de');?>" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/de.svg')?></span> Germany</a>
@@ -74,15 +74,7 @@
             </div>
 
 			<div class="tournament-info">
-				<img src="<?=url('/assets_min/global/img/trophy-logos-lockup-mobile-size.png')?>">
-				<!--
-				<div class="tournament-logo">
-               		<img src="<?=url('/assets_min/global/img/logo-boston-major.png')?>">
-               	</div>
-				<div class="game-logo">
-					<img src="<?=url('/assets_min/global/img/dota-2-logo.png')?>">
-				</div>
-				-->
+				<img src="<?=url('/assets_min/global/img/esl.png')?>">
 			
 					<div class="line1"><?=$lang_content->intro_line1?></div>
 					<div class="line2"><?=$lang_content->intro_line2?> <?=$lang_content->prize_meter_reset?></div>
@@ -92,8 +84,6 @@
 			
 			
 			<div class="graphics-card-callout">
-                            <div class="main-title"><?=$lang_content->gc_main_callout?></div>
-                            <div class="sub-title"><?=$lang_content->gc_sub_title?></div>
                             
                             <div class="product-info">
                             	<div class="product-column">
@@ -137,7 +127,6 @@
 
 			<div class="intro">
 				<div class="line1"><?=$lang_content->prize_meter?></div>
-               <div class="line2 hide-mobile">lower bracket</div>
                 <div class="line3"><?=$lang_content->lower_bracket_round_1?> </div>
 			</div>
 
@@ -161,7 +150,7 @@
 						</div>
 						<div class="tweets">
 							<div class="label"><?=$lang_content->tweets?></div>
-							<div class="number">10K</div>
+							<div class="number">6K</div>
 						</div>
 					</div>
 
@@ -173,7 +162,7 @@
 						</div>
 						<div class="tweets">
 							<div class="label"><?=$lang_content->tweets?></div>
-							<div class="number">5K</div>
+							<div class="number">3K</div>
 						</div>
 					</div>
 
@@ -216,7 +205,7 @@
 						
 						<div class="tweets">
 							<div class="label"><?=$lang_content->tweets?></div>
-							<div class="number">5K</div>
+							<div class="number">3K</div>
 						</div>
 						
 					</div>
@@ -231,7 +220,7 @@
 						
 						<div class="tweets">
 							<div class="label"><?=$lang_content->tweets?></div>
-							<div class="number">10K</div>
+							<div class="number">6K</div>
 						</div>
 						
 					</div>
@@ -298,7 +287,7 @@
 										<div class="content">
 											<div class="logo"><img src="<?=url('/assets_min/global/img/logos/'.$team1_found->key.'.png')?>"></div>
 											<div class="number"><span class="num"><?=$team1_count?></span><div class="icon"><?=svg('/assets_min/global/img/twitter.svg')?></div></div>
-											<div class="hashtags"><span>#BOSTONMAJOR</span><span>#GAMEREADY</span><span>#<?=$team1_found->hashtag?></span></div>
+											<div class="hashtags"><span>#ESLONE</span><span>#GAMEREADY</span><span>#<?=$team1_found->hashtag?></span></div>
 										</div>
 									</div>
 
@@ -330,7 +319,7 @@
 															<div class="name">NVIDIA</div>
 															<div class="screen_name">@NVIDIA</div>
 														</div>
-														<div class="content">Let's go! #BostonMajor #GameReady #<?=$team1_found->hashtag?> via @NVIDIA</div>
+														<div class="content">Let's go! #ESLONE #GameReady #<?=$team1_found->hashtag?> via @NVIDIA</div>
 													</div>
 													<?php
 												}
@@ -340,7 +329,7 @@
 
 									<div class="bottom">
 										<?php
-											$hashtags = urlencode( 'BOSTONMAJOR,GameReady,'.$team1_found->hashtag );
+											$hashtags = urlencode( 'ESLONE,GameReady,'.$team1_found->hashtag );
 										?>
 										<a href="https://twitter.com/intent/tweet?hashtags=<?=$hashtags?>&via=NVIDIA" class="button">
 											<span class="icon"><?=svg('/assets_min/global/img/twitter.svg')?></span>
@@ -364,7 +353,7 @@
 										<div class="content">
 											<div class="logo"><img src="<?=url('/assets_min/global/img/logos/'.$team2_found->key.'.png')?>"></div>
 											<div class="number"><span class="num"><?=$team2_count?></span> <div class="icon"><?=svg('/assets_min/global/img/twitter.svg')?></div></div>
-											<div class="hashtags"><span>#BOSTONMAJOR</span><span>#GAMEREADY</span><span>#<?=$team2_found->hashtag?></span></div>
+											<div class="hashtags"><span>#ESLONE</span><span>#GAMEREADY</span><span>#<?=$team2_found->hashtag?></span></div>
 										</div> <!-- content -->
 									</div> <!-- info -->
 
@@ -396,7 +385,7 @@
 															<div class="name">NVIDIA</div>
 															<div class="screen_name">@NVIDIA</div>
 														</div>
-														<div class="content">Let's go! #BostonMajor #GameReady #<?=$team2_found->hashtag?> via @NVIDIA</div>
+														<div class="content">Let's go! #ESLONE #GameReady #<?=$team2_found->hashtag?> via @NVIDIA</div>
 													</div> <!-- entry -->
 													<?php
 												}
@@ -406,7 +395,7 @@
 
 									<div class="bottom">
 										<?php
-											$hashtags = urlencode( 'BOSTONMAJOR,GameReady,'.$team2_found->hashtag );
+											$hashtags = urlencode( 'ESLONE,GameReady,'.$team2_found->hashtag );
 										?>
 										<a href="https://twitter.com/intent/tweet?hashtags=<?=$hashtags?>&via=NVIDIA" class="button">
 											<span class="icon"><?=svg('/assets_min/global/img/twitter.svg')?></span>
@@ -429,8 +418,6 @@
 	?>
 
 					 <div class="graphics-card-callout-mobile">
-                            <div class="main-title"><?=$lang_content->gc_main_callout?></div>
-                            <div class="sub-title"><?=$lang_content->gc_sub_title?></div>
                             
                             <div class="product-info">
                             	<div class="product-column">
@@ -463,7 +450,7 @@
 	?>
 
 		<div id="copyright">
-			<?=$lang_content->copyright?>
+			<?=$lang_content->copyright?><a href="/esl/index.php/official_rules" class="rules" target="_blank" onclick="trackOutboundLink(this.href)">Official Rules</a>
 		</div><!-- copyright -->
 	</div> <!-- END MOBILE BACKGROUND BLACK COVER -->
 
@@ -510,13 +497,13 @@
 
 		}).trigger('resize');
 
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-		ga('create', 'UA-72492306-3', 'auto');
-		ga('send', 'pageview');
+  ga('create', 'UA-72492306-5', 'auto');
+  ga('send', 'pageview');
 	</script>
 
 </body>
