@@ -47,8 +47,8 @@
 		'lg' =>
 		[
 			'key' => 'lg',
-			'hashtag' => 'LGD.ForeverYoung',
-			'name' => 'LGD.Forever Young'
+			'hashtag' => 'LGDForeverYoung',
+			'name' => 'LGDForever Young'
 		],
 		'gd' =>
 		[
@@ -95,8 +95,8 @@
         'wg' =>
         [
             'key' => 'wg',
-            'hashtag' => 'WarriorsGaming.Unity',
-            'name' => 'WarriorsGaming.Unity'
+            'hashtag' => 'WarriorsGamingUnity',
+            'name' => 'WarriorsGamingUnity'
         ],
         'wi' =>
         [

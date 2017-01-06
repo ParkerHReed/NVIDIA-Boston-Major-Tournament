@@ -20,7 +20,7 @@
 			[
 				'title' => $lang_content->match_1,
 				'series' => '',
-				'date' => 'January 6th, 2017 - 12:30 MYT',
+				'date' => $lang_content->time_01,
 				'team1' => 'vi',
 				'team2' => 'fn',
 				'results' => 'vs'
@@ -28,8 +28,8 @@
 			'2' =>
 			[
 				'title' => $lang_content->match_2,
-				'series' => 'January 6th, 2017 - 12:30 MYT',
-				'date' => 'January 6th, 2017 - 12:30 MYT',
+				'series' => $lang_content->time_02,
+				'date' => $lang_content->time_02,
 				'team1' => 'nb',
 				'team2' => 'np',
 				'results' => 'vs'
@@ -37,8 +37,8 @@
     		'3' =>
     		[
 				'title' => $lang_content->match_3,
-				'series' => 'December 7th, 2016 - 17:00',
-				'date' => 'December 7th, 2016 - 17:00',
+				'series' => $lang_content->time_03,
+				'date' => $lang_content->time_03,
 				'team1' => 'dc',
 				'team2' => 'ex',
 				'results' => 'vs'
@@ -46,10 +46,28 @@
 			'4' =>
 			[
 				'title' => $lang_content->match_4,
-				'series' => 'December 7th, 2016 - 20:30',
-				'date' => 'December 7th, 2016 - 20:30',
+				'series' => $lang_content->time_04,
+				'date' => $lang_content->time_04,
 				'team1' => 'wg',
 				'team2' => 'wi',
+				'results' => 'vs'
+			],
+			'5' =>
+			[
+				'title' => $lang_content->match_5,
+				'series' => $lang_content->time_05,
+				'date' => $lang_content->time_05,
+				'team1' => 'tbd',
+				'team2' => 'tbd',
+				'results' => 'vs'
+			],
+			'6' =>
+			[
+				'title' => $lang_content->match_6,
+				'series' => $lang_content->time_06,
+				'date' => $lang_content->time_06,
+				'team1' => 'tbd',
+				'team2' => 'tbd',
 				'results' => 'vs'
 			]
     	]

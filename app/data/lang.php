@@ -13,7 +13,7 @@
 		'intro_line1' => 'Cheer on your favorite teams for a chance to win a GeForce GTX 10 Series graphics card.',
 		'description' => '',
 		'hashtag' => '#gameready',
-		'intro_line2' => 'Every <a href="http://www.geforce.com/hardware/10series" target="_blank">#GameReady</a> tweet is an entry to win and the more tweets the larger the prize. We will select one winner per matchup, so keep cheering for your favorite teams.',
+		'intro_line2' => 'Every <a href="http://www.geforce.com/hardware/10series" target="_blank" onclick="trackOutboundLink(this.href)">#GameReady</a> tweet is an entry to win and the more tweets the larger the prize. We will select one winner per matchup, so keep cheering for your favorite teams.',
 		'prize_meter_reset' => '', // Prize meter resets each day.
 		'gc_main_callout' => 'Geforce<sup>&reg;</sup> GTX 10 series',
 		'gc_sub_title' => 'Experience game-changing performance and power efficiency in every game',
@@ -50,6 +50,8 @@
 		'match_2' => 'Match 2',
 		'match_3' => 'Match 3',
 		'match_4' => 'Match 4',
+		'match_5' => 'Match 5',
+		'match_6' => 'Match 6',
 
 		'cheer_on' => 'Cheer on %s',
 		
@@ -57,6 +59,12 @@
 		'best_of_5' => 'Best of 5',
 		
 		'month' => 'January',
+		'time_01' => 'January 6th, 2017 - 12:30 MYT',
+		'time_02' => 'January 6th, 2017 - 12:30 MYT',
+		'time_03' => 'January 6th, 2017 - 14:10 MYT',
+		'time_04' => 'January 6th, 2017 - 14:10 MYT',
+		'time_05' => 'January 6th, 2017 - 15:50 MYT',
+		'time_06' => 'January 6th, 2017 - 19:40 MYT',
 
 		'teaser_starts' => 'Sweepstakes Starts'
 	];
@@ -82,7 +90,7 @@
 		'prize1' => 'GeForce GTX 1060',
 		'prize2' => 'GeForce GTX 1070',
 		'prize3' => 'GeForce GTX 1080',
-		'prize4' => 'GeForce GTX 10-series Notebooks',
+		'prize4' => 'Ноутбуки на видеокартах GeForce GTX 10',
 		'learn_more' => 'Узнайте больше >',
 		'rep_title' => 'Поддержи свою команду',
 		'copyright' => '© '.date('Y').' NVIDIA Corporation  |  © '.date('Y').' Valve Corporation, all rights reserved. | *Max 25 individual entries per matchup | <a href="official_rules" class="rules" target="_blank" onclick="trackOutboundLink(this.href)">официальные правила</a>',
@@ -110,6 +118,8 @@
 		'match_2' => 'Матч 2',
 		'match_3' => 'Матч 3',
 		'match_4' => 'Матч 4',
+		'match_5' => 'Матч 5',
+		'match_6' => 'Матч 6',
 
 		'cheer_on' => 'Болей за %s',
 
@@ -117,6 +127,12 @@
 		'best_of_5' => 'Bo5',
 		
 		'month' => 'Январь',
+		'time_01' => 'Январь 6th, 2017 - 12:30 MYT',
+		'time_02' => 'Январь 6th, 2017 - 12:30 MYT',
+		'time_03' => 'Январь 6th, 2017 - 14:10 MYT',
+		'time_04' => 'Январь 6th, 2017 - 14:10 MYT',
+		'time_05' => 'Январь 6th, 2017 - 15:50 MYT',
+		'time_06' => 'Январь 6th, 2017 - 19:40 MYT',
 
 		'teaser_starts' => 'Sweepstakes Starts'
 		
@@ -175,6 +191,8 @@
 		'match_2' => 'Partida 2',
 		'match_3' => 'Partida 3',
 		'match_4' => 'Partida 4',
+		'match_5' => 'Partida 5',
+		'match_6' => 'Partida 6',
 
 		'cheer_on' => 'Continue torcendo %s',
 		
@@ -182,6 +200,12 @@
 		'best_of_5' => 'Melhor de 5',
 		
 		'month' => 'janeiro',
+		'time_01' => 'janeiro 6th, 2017 - 12:30 MYT',
+		'time_02' => 'janeiro 6th, 2017 - 12:30 MYT',
+		'time_03' => 'janeiro 6th, 2017 - 14:10 MYT',
+		'time_04' => 'janeiro 6th, 2017 - 14:10 MYT',
+		'time_05' => 'janeiro 6th, 2017 - 15:50 MYT',
+		'time_06' => 'janeiro 6th, 2017 - 19:40 MYT',
 
 		'teaser_starts' => 'Sweepstakes Starts'
 	];
@@ -207,7 +231,7 @@
 		'prize1' => 'GeForce GTX 1060',
 		'prize2' => 'GeForce GTX 1070',
 		'prize3' => 'GeForce GTX 1080',
-		'prize4' => 'GeForce GTX 10-series Notebooks',
+		'prize4' => 'GeForce GTX Serie 10 Notebooks',
 		'learn_more' => 'Más información >',
 		'rep_title' => 'Representa a tu Equipo',
 		'copyright' => '© '.date('Y').' NVIDIA Corporation  |  © '.date('Y').' Valve Corporation, all rights reserved. | *Max 25 individual entries per matchup | <a href="official_rules" class="rules" target="_blank" onclick="trackOutboundLink(this.href)">reglas Oficiales</a>',
@@ -235,6 +259,8 @@
 		'match_2' => 'Match 2',
 		'match_3' => 'Match 3',
 		'match_4' => 'Match 4',
+		'match_5' => 'Match 5',
+		'match_6' => 'Match 6',
 
 		'cheer_on' => 'Animar a %s',
 		
@@ -242,6 +268,12 @@
 		'best_of_5' => 'Bo5',
 		
 		'month' => 'Enero',
+		'time_01' => 'Enero 6th, 2017 - 12:30 MYT',
+		'time_02' => 'Enero 6th, 2017 - 12:30 MYT',
+		'time_03' => 'Enero 6th, 2017 - 14:10 MYT',
+		'time_04' => 'Enero 6th, 2017 - 14:10 MYT',
+		'time_05' => 'Enero 6th, 2017 - 15:50 MYT',
+		'time_06' => 'Enero 6th, 2017 - 19:40 MYT',
 
 		'teaser_starts' => 'Sweepstakes Starts'
 	];
@@ -267,7 +299,7 @@
 		'prize1' => 'GeForce GTX 1060',
 		'prize2' => 'GeForce GTX 1070',
 		'prize3' => 'GeForce GTX 1080',
-		'prize4' => 'GeForce GTX 10-series Notebooks',
+		'prize4' => 'GeForce GTX 10-Series Notebooks',
 		'learn_more' => 'Mehr erfahren >',
 		'rep_title' => 'Repräsentiere dein Team',
 		'copyright' => '© '.date('Y').' NVIDIA Corporation  |  © '.date('Y').' Valve Corporation, all rights reserved. | *Max 25 individual entries per matchup | <a href="official_rules" class="rules" target="_blank" onclick="trackOutboundLink(this.href)">offiziellen Regeln</a>',
@@ -295,6 +327,8 @@
 		'match_2' => 'Spiel 2',
 		'match_3' => 'Spiel 3',
 		'match_4' => 'Spiel 4',
+		'match_5' => 'Spiel 5',
+		'match_6' => 'Spiel 6',
 
 		'cheer_on' => 'Ich unterstütze %s',
 		
@@ -302,6 +336,12 @@
 		'best_of_5' => 'Best of 5',
 		
 		'month' => 'Januar',
+		'time_01' => 'Januar 6th, 2017 - 12:30 MYT',
+		'time_02' => 'Januar 6th, 2017 - 12:30 MYT',
+		'time_03' => 'Januar 6th, 2017 - 14:10 MYT',
+		'time_04' => 'Januar 6th, 2017 - 14:10 MYT',
+		'time_05' => 'Januar 6th, 2017 - 15:50 MYT',
+		'time_06' => 'Januar 6th, 2017 - 19:40 MYT',
 
 		'teaser_starts' => 'Sweepstakes Starts'
 	];
@@ -327,7 +367,7 @@
 		'prize1' => 'GeForce GTX 1060',
 		'prize2' => 'GeForce GTX 1070',
 		'prize3' => 'GeForce GTX 1080',
-		'prize4' => 'GeForce GTX 10-series Notebooks',
+		'prize4' => 'โน้ตบุ๊ค GeForce GTX 10-Series ',
 		'learn_more' => 'ศึกษาเพิ่มเติม >',
 		'rep_title' => 'ตัวแทนของทีม',
 		'copyright' => '© '.date('Y').' NVIDIA Corporation  |  © '.date('Y').' Valve Corporation, all rights reserved. | *Max 25 individual entries per matchup | ',
@@ -355,6 +395,8 @@
 		'match_2' => 'แมทช์ 2',
 		'match_3' => 'แมทช์ 3',
 		'match_4' => 'แมทช์ 4',
+		'match_5' => 'แมทช์ 5',
+		'match_6' => 'แมทช์ 6',
 
 		'cheer_on' => 'เชียร์ทีม %s',
 		
@@ -362,6 +404,12 @@
 		'best_of_5' => 'Best of 5',
 		
 		'month' => 'มกราคม',
+		'time_01' => 'มกราคม 6th, 2017 - 12:30 MYT',
+		'time_02' => 'มกราคม 6th, 2017 - 12:30 MYT',
+		'time_03' => 'มกราคม 6th, 2017 - 14:10 MYT',
+		'time_04' => 'มกราคม 6th, 2017 - 14:10 MYT',
+		'time_05' => 'มกราคม 6th, 2017 - 15:50 MYT',
+		'time_06' => 'มกราคม 6th, 2017 - 19:40 MYT',
 
 		'teaser_starts' => 'Sweepstakes Starts'
 	];

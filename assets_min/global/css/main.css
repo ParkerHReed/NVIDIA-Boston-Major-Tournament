@@ -2,7 +2,7 @@
 ======================================= */
 body.lang-ru #prize-meter .header.clear .intro {
   padding: 15px 0 0 0; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1280px) {
     body.lang-ru #prize-meter .header.clear .intro {
       padding: 15px 0 60px 0; } }
   body.lang-ru #prize-meter .header.clear .intro .line1 {
@@ -11,21 +11,15 @@ body.lang-ru #prize-meter .header.clear .intro {
     font-size: 26px;
     padding-bottom: 15px; }
 
-body.lang-ru #prize-meter .header.clear .total .number {
-  top: 17px; }
-  @media (min-width: 1024px) {
-    body.lang-ru #prize-meter .header.clear .total .number {
-      top: 90px; } }
-
 body.lang-ru #prize-meter .header.clear .total .icon {
   top: 5px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1280px) {
     body.lang-ru #prize-meter .header.clear .total .icon {
       top: 138px; } }
 
 body.lang-cn #prize-meter .header.clear .intro {
   padding: 15px 0 0 0; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1280px) {
     body.lang-cn #prize-meter .header.clear .intro {
       padding: 15px 0 50px 0; } }
   body.lang-cn #prize-meter .header.clear .intro .line3 {
@@ -35,16 +29,16 @@ body.lang-cn #prize-meter .header.clear .intro {
 body.lang-cn #prize-meter .header.clear .total {
   top: 17px;
   top: 7px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1280px) {
     body.lang-cn #prize-meter .header.clear .total {
       top: 102px; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1280px) {
     body.lang-cn #prize-meter .header.clear .total {
       top: 150px; } }
 
 body.lang-br #prize-meter .header.clear .intro {
   padding: 15px 0 0 0; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1280px) {
     body.lang-br #prize-meter .header.clear .intro {
       padding: 15px 0 65px 0; } }
   body.lang-br #prize-meter .header.clear .intro .line3 {
@@ -53,13 +47,13 @@ body.lang-br #prize-meter .header.clear .intro {
 
 body.lang-br #prize-meter .header.clear .total .number {
   top: 13px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1280px) {
     body.lang-br #prize-meter .header.clear .total .number {
       top: 76px; } }
 
 body.lang-br #prize-meter .header.clear .total .icon {
   top: 5px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1280px) {
     body.lang-br #prize-meter .header.clear .total .icon {
       top: 125px; } }
 
@@ -69,7 +63,7 @@ body.lang-br #prize-meter .header.clear .total .icon {
 
 body.lang-es #prize-meter .header.clear .intro {
   padding: 15px 0 0 0; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1280px) {
     body.lang-es #prize-meter .header.clear .intro {
       padding: 15px 0 60px 0; } }
   body.lang-es #prize-meter .header.clear .intro .line3 {
@@ -78,19 +72,19 @@ body.lang-es #prize-meter .header.clear .intro {
 
 body.lang-es #prize-meter .header.clear .total .number {
   top: 13px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1280px) {
     body.lang-es #prize-meter .header.clear .total .number {
       top: 97px; } }
 
 body.lang-es #prize-meter .header.clear .total .icon {
   top: 0px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1280px) {
     body.lang-es #prize-meter .header.clear .total .icon {
       top: 145px; } }
 
 body.lang-de #prize-meter .header.clear .intro {
   padding: 15px 0 0 0; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1280px) {
     body.lang-de #prize-meter .header.clear .intro {
       padding: 15px 0 60px 0; } }
   body.lang-de #prize-meter .header.clear .intro .line3 {
@@ -99,13 +93,13 @@ body.lang-de #prize-meter .header.clear .intro {
 
 body.lang-de #prize-meter .header.clear .total .number {
   top: 13px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1280px) {
     body.lang-de #prize-meter .header.clear .total .number {
       top: 80px; } }
 
 body.lang-de #prize-meter .header.clear .total .icon {
   top: 0px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1280px) {
     body.lang-de #prize-meter .header.clear .total .icon {
       top: 127px; } }
 
@@ -119,12 +113,13 @@ body {
   background-color: #000;
   height: 100%;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background-image: url("../img/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   body {
     background-image: url("../img/background.jpg"); } }
 
@@ -256,7 +251,7 @@ body.lang-cn {
     -webkit-transform: scaleY(1);
             transform: scaleY(1);
     overflow: scroll; }
-    @media (min-width: 1024px) {
+    @media (min-width: 768px) {
       #location.open .menu {
         overflow: hidden; } }
 
@@ -266,7 +261,7 @@ body.lang-cn {
   width: 100%;
   width: 100vw;
   height: auto; }
-  @media (min-width: 1025px) {
+  @media (min-width: 1281px) {
     #main-intro {
       width: 45%;
       float: left; } }
@@ -515,6 +510,17 @@ body.lang-cn {
         #brackets .teambox-inside .info .hashtags span {
           display: inline-block;
           margin-right: 6px; }
+          @media (min-width: 1280px) {
+            #brackets .teambox-inside .info .hashtags span {
+              overflow: hidden;
+              display: -webkit-inline-box;
+              -webkit-line-clamp: 1;
+              -webkit-box-orient: vertical;
+              word-break: break-word;
+              width: 125px; } }
+          @media (min-width: 1400px) {
+            #brackets .teambox-inside .info .hashtags span {
+              width: 152px; } }
     #brackets .teambox-inside .tweets {
       background-color: #f0f0f0;
       border-top: 1px solid #e5e5e5; }
@@ -602,7 +608,7 @@ body.lang-cn {
           background-color: #83ce00; }
 
 /***** BRACKETS DESKTOP ******/
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   #brackets {
     position: relative;
     float: left;
@@ -677,7 +683,7 @@ body.lang-cn {
       font-size: 15px;
       display: block;
       text-align: center; }
-      @media (max-width: 1024px) {
+      @media (max-width: 1280px) {
         #prize-meter .intro .line2 {
           display: block;
           text-align: left; } }
@@ -687,7 +693,7 @@ body.lang-cn {
       font-size: 30px;
       width: 121px;
       text-align: left; }
-      @media (min-width: 1024px) {
+      @media (min-width: 1281px) {
         #prize-meter .intro .line3 {
           width: auto;
           font-size: 46px;
@@ -702,12 +708,12 @@ body.lang-cn {
     position: absolute;
     right: 55px;
     top: 16px; }
-    @media (min-width: 1024px) {
+    @media (min-width: 1281px) {
       #prize-meter .total .number {
         padding: 20px;
         width: 100%;
         right: 0;
-        top: 93px; } }
+        top: 74px; } }
   #prize-meter .total .icon {
     position: absolute;
     top: 140px;
@@ -742,7 +748,7 @@ body.lang-cn {
 
 /* Tablet BRACKETS
 ===================================================== */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1280px) {
   #brackets .teambox-inside .info .hashtags {
     display: block;
     padding-right: 230px; }
@@ -774,7 +780,7 @@ body.lang-cn {
 /* END MEDIA QUERY */
 /* Desktop Prize Meter
 ===================================================== */
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   #prize-meter .follow-nvidia {
     display: none; }
   #copyright {
@@ -787,7 +793,7 @@ body.lang-cn {
     text-align: left; } }
 
 /* END MEDIA QUERY */
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .graphics-card-callout-mobile {
     display: none; } }
 
@@ -848,7 +854,7 @@ body.lang-cn {
   #prize-meter .header .intro {
     background-color: #373737;
     padding: 15px 0; }
-    @media (min-width: 1024px) {
+    @media (min-width: 1281px) {
       #prize-meter .header .intro {
         padding: 15px 0 70px 0; } }
 
@@ -899,7 +905,8 @@ body.lang-cn {
     margin-left: -1px;
     z-index: 9;
     -webkit-transition: all 2000ms linear;
-    transition: all 2000ms linear; }
+    transition: all 2000ms linear;
+    max-height: 100%; }
   #prize-meter .meter .dot {
     position: absolute;
     left: 50%;
@@ -999,7 +1006,6 @@ body.lang-cn {
 #prize-meter .meter-mobile {
   display: none;
   position: relative;
-  height: 190px;
   overflow: hidden;
   overflow-x: auto;
   border-bottom: 1px solid #000;
@@ -1015,10 +1021,13 @@ body.lang-cn {
     background-color: #aaa; }
   #prize-meter .meter-mobile .padding {
     height: 160px;
-    width: 1020px;
-    padding: 0;
+    width: 100%;
+    padding: 0 50px 0 0;
     position: relative;
     background: transparent url("../img/mobile/ticks.gif") repeat-x 5px 50%; }
+    @media (min-width: 768px) {
+      #prize-meter .meter-mobile .padding {
+        padding: 0 25px 0 0; } }
   #prize-meter .meter-mobile .top-cover {
     position: absolute;
     top: 0;
@@ -1030,7 +1039,6 @@ body.lang-cn {
   #prize-meter .meter-mobile .bottom-cover {
     position: absolute;
     bottom: auto;
-    left: 100%;
     top: 0;
     z-index: 99;
     width: 28px;
@@ -1051,6 +1059,7 @@ body.lang-cn {
   #prize-meter .meter-mobile .progress-green {
     width: 0;
     height: 4px;
+    max-width: 100%;
     background-color: #70af00;
     position: absolute;
     top: 50%;
@@ -1105,12 +1114,15 @@ body.lang-cn {
     text-transform: uppercase;
     font-family: "Fjalla One", Helvetica, Arial, sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     width: 70px;
     background-color: #f0f0f0;
     padding: 10px 10px 10px 10px;
     -webkit-transition: all 200ms ease;
     transition: all 200ms ease; }
+    @media (min-width: 768px) {
+      #prize-meter .meter-mobile .prize {
+        font-size: 14px; } }
   #prize-meter .meter-mobile .tweets {
     position: absolute;
     bottom: 100%;
@@ -1149,15 +1161,19 @@ body.lang-cn {
 
 /* Tablet
 ===================================================== */
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
   #prize-meter .header .intro {
-    width: 60%; } }
+    width: 100%; }
+    #prize-meter .header .intro .line3 {
+      width: auto;
+      padding-left: 25px; }
+  #prize-meter .header .total .number {
+    right: 75px;
+    line-height: 30px; }
+  #prize-meter .header .total .icon {
+    right: 25px; } }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  #prize-meter .header .intro {
-    width: 70%; } }
-
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
   #brackets .teambox-inside .photo .thumbnail {
     height: 250px; }
   #location {
@@ -1193,7 +1209,6 @@ body.lang-cn {
         left: auto;
         bottom: auto;
         top: 2px;
-        right: -15px;
         margin: 0;
         position: relative;
         display: inline-block; }
@@ -1338,7 +1353,7 @@ body.lang-cn {
 ===================================================== */
 /* Mobile Product Call Out
 ===================================================== */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1280px) {
   .graphics-card-callout-mobile {
     display: block;
     width: 100%;
@@ -1363,7 +1378,7 @@ body.lang-cn {
     .graphics-card-callout-mobile .product-info {
       width: 100%;
       border-top: solid 1px #4d4d4d;
-      margin-top: -24px;
+      margin-top: -35px;
       border-bottom: solid 1px #4d4d4d;
       float: left;
       margin-bottom: 25px;
@@ -1394,7 +1409,7 @@ body.lang-cn {
 
 /* Tablet Product Call Out
 ===================================================== */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1280px) {
   .graphics-card-callout-mobile {
     display: block;
     width: 100%;
@@ -1450,7 +1465,7 @@ body.lang-cn {
 .graphics-card-callout {
   display: none; }
 
-@media (min-width: 1024px) {
+@media (min-width: 1281px) {
   .graphics-card-callout {
     display: block;
     width: 100%;

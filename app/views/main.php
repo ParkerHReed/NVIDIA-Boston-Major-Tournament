@@ -21,7 +21,7 @@
 	<meta name="description" content="<?=$lang_content->description?>">
 	<link rel="canonical" href="<?=url()?>">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1" content="IE=8">
 
 	<link href="<?=url('/assets_min/vendor/vendor.min.css')?>" rel="stylesheet">
 	<link href="<?=url('/assets_min/global/css/main.min.css')?>" rel="stylesheet">
@@ -35,7 +35,7 @@
 		{
 		   ga('send', 'event', 'outbound', 'click', url, {
 		     'transport': 'beacon',
-		     'hitCallback': function(){ window.open( url, '_blank'); }
+		     'hitCallback': function(){ }
 		   });
 		}
 	</script>
@@ -54,7 +54,6 @@
 			<a href="<?=url('index.php/us');?>" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/us.svg')?></span> USA</a>
 			<a href="<?=url('index.php/ru');?>" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/ru.svg')?></span> Russia</a>
 			<a href="<?=url('index.php/cn');?>" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/cn.svg')?></span> Thailand</a>
-			<a href="<?=url('index.php/br');?>" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/br.svg')?></span> Brazil</a>
 			<a href="<?=url('index.php/es');?>" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/es.svg')?></span> Spain</a>
 			<a href="<?=url('index.php/de');?>" class="option"><span class="flag"><?=svg('/assets_min/global/img/flags/de.svg')?></span> Germany</a>
 		</div>
@@ -90,19 +89,19 @@
                                 	<ul>
                                     	<li>
                                             <div class="product-name"><?=$lang_content->prize1?></div>
-                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1060" target="_blank"><?=$lang_content->learn_more?></a></div>
+                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1060" target="_blank" onclick="trackOutboundLink(this.href)"><?=$lang_content->learn_more?></a></div>
                                         </li>
                                         <li>
                                             <div class="product-name"><?=$lang_content->prize2?></div>
-                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1070" target="_blank"><?=$lang_content->learn_more?></a></div>
+                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1070" target="_blank" onclick="trackOutboundLink(this.href)"><?=$lang_content->learn_more?></a></div>
                                         </li>
                                         <li>
                                             <div class="product-name"><?=$lang_content->prize3?></div>
-                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1080" target="_blank"><?=$lang_content->learn_more?></a></div>
+                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1080" target="_blank" onclick="trackOutboundLink(this.href)"><?=$lang_content->learn_more?></a></div>
                                         </li>
                                         <li>
                                             <div class="product-name"><?=$lang_content->prize4?></div>
-                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/notebook" target="_blank"><?=$lang_content->learn_more?></a></div>
+                                            <div class="learn"><a href="https://www.nvidia.com/en-us/geforce/products/10series/laptops/" target="_blank" onclick="trackOutboundLink(this.href)"><?=$lang_content->learn_more?></a></div>
                                         </li>
                                     </ul>
                                 </div> <!-- product-column -->
@@ -424,19 +423,19 @@
                                 	<ul>
                                     	<li>
                                             <div class="product-name"><?=$lang_content->prize1?></div>
-                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1060" target="_blank"><?=$lang_content->learn_more?></a></div>
+                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1060" target="_blank" onclick="trackOutboundLink(this.href)"><?=$lang_content->learn_more?></a></div>
                                         </li>
                                         <li>
                                             <div class="product-name"><?=$lang_content->prize2?></div>
-                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1070" target="_blank"><?=$lang_content->learn_more?></a></div>
+                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1070" target="_blank" onclick="trackOutboundLink(this.href)"><?=$lang_content->learn_more?></a></div>
                                         </li>
                                         <li>
                                             <div class="product-name"><?=$lang_content->prize3?></div>
-                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1080" target="_blank"><?=$lang_content->learn_more?></a></div>
+                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/geforce-gtx-1080" target="_blank" onclick="trackOutboundLink(this.href)"><?=$lang_content->learn_more?></a></div>
                                         </li>
                                         <li>
                                             <div class="product-name"><?=$lang_content->prize4?></div>
-                                            <div class="learn"><a href="http://www.geforce.com/hardware/10series/notebook" target="_blank"><?=$lang_content->learn_more?></a></div>
+                                            <div class="learn"><a href="https://www.nvidia.com/en-us/geforce/products/10series/laptops/" target="_blank" onclick="trackOutboundLink(this.href)"><?=$lang_content->learn_more?></a></div>
                                         </li>
                                     </ul>
                                 </div> <!-- product-column -->
@@ -450,7 +449,7 @@
 	?>
 
 		<div id="copyright">
-			<?=$lang_content->copyright?><a href="/esl/index.php/official_rules" class="rules" target="_blank" onclick="trackOutboundLink(this.href)">Official Rules</a>
+			<?=$lang_content->copyright?><a href="/index.php/official_rules" class="rules" target="_blank" onclick="trackOutboundLink(this.href)">Official Rules</a>
 		</div><!-- copyright -->
 	</div> <!-- END MOBILE BACKGROUND BLACK COVER -->
 
@@ -497,14 +496,23 @@
 
 		}).trigger('resize');
 
-		 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-72492306-5', 'auto');
-  ga('send', 'pageview');
+	  ga('create', 'UA-72492306-4', 'auto');
+	  ga('send', 'pageview');
 	</script>
+	
+	
+	
+	
+	
+	
+	
+  
+
 
 </body>
 </html>

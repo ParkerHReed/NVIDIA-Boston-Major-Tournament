@@ -6,7 +6,7 @@ body.lang-ru {
 		.header.clear {
 			.intro {
 				padding: 15px 0 0 0;
-				@media (min-width:1024px) {
+				@media (min-width:1280px) {
 					padding: 15px 0 60px 0;
 				}
 				.line1 {
@@ -19,14 +19,11 @@ body.lang-ru {
 			}
 			.total {
 				.number {
-					top: 17px;
-					@media (min-width:1024px) {
-						top: 90px;
-					}
+					
 				}
 				.icon {
 					top: 5px;
-					@media (min-width:1024px) {
+					@media (min-width:1280px) {
 						top: 138px;
 					}
 				}
@@ -40,7 +37,7 @@ body.lang-cn {
 		.header.clear {
 			.intro {
 				padding: 15px 0 0 0;
-				@media (min-width:1024px) {
+				@media (min-width:1280px) {
 					padding: 15px 0 50px 0;
 				}
 				.line3 {
@@ -50,11 +47,11 @@ body.lang-cn {
 			}
 			.total {
 				top: 17px;
-					@media (min-width:1024px) {
+					@media (min-width:1280px) {
 						top: 102px;
 					}
 				top: 7px;
-					@media (min-width:1024px) {
+					@media (min-width:1280px) {
 						top: 150px;
 					}
 			}
@@ -67,7 +64,7 @@ body.lang-br {
 		.header.clear {
 			.intro {
 				padding: 15px 0 0 0;
-				@media (min-width:1024px) {
+				@media (min-width:1280px) {
 					padding: 15px 0 65px 0;
 				}
 				.line3 {
@@ -78,13 +75,13 @@ body.lang-br {
 			.total {
 				.number {
 					top: 13px;
-					@media (min-width:1024px) {
+					@media (min-width:1280px) {
 						top: 76px;
 					}
 				}
 				.icon {
 					top: 5px;
-					@media (min-width:1024px) {
+					@media (min-width:1280px) {
 					top: 125px;
 					}
 				}
@@ -109,7 +106,7 @@ body.lang-es {
 		.header.clear {
 			.intro {
 				padding: 15px 0 0 0;
-				@media (min-width:1024px) {
+				@media (min-width:1280px) {
 					padding: 15px 0 60px 0;
 				}
 				.line3 {
@@ -120,13 +117,13 @@ body.lang-es {
 			.total {
 				.number {
 					top: 13px;
-					@media (min-width:1024px) {
+					@media (min-width:1280px) {
 						top: 97px;
 					}
 				}
 				.icon {
 					top: 0px;
-					@media (min-width:1024px) {
+					@media (min-width:1280px) {
 					top: 145px;
 					}
 				}
@@ -140,7 +137,7 @@ body.lang-de {
 		.header.clear {
 			.intro {
 				padding: 15px 0 0 0;
-				@media (min-width:1024px) {
+				@media (min-width:1280px) {
 					padding: 15px 0 60px 0;
 				}
 				.line3 {
@@ -151,13 +148,13 @@ body.lang-de {
 			.total {
 				.number {
 					top: 13px;
-					@media (min-width:1024px) {
+					@media (min-width:1280px) {
 						top: 80px;
 					}
 				}
 				.icon {
 					top: 0px;
-					@media (min-width:1024px) {
+					@media (min-width:1280px) {
 					top: 127px;
 					}
 				}
@@ -180,6 +177,8 @@ body
 	height: 100%;
 	-webkit-font-smoothing: antialiased;
 	
+    -moz-osx-font-smoothing: grayscale;
+	
 	
 	background-image: url('../img/background.jpg');
 	background-size: cover;
@@ -187,7 +186,7 @@ body
 	background-attachment: fixed;
 }
 
-@media (min-width:1024px) {
+@media (min-width:1280px) {
 	body {
 		background-image: url('../img/background.jpg');
 	}
@@ -335,7 +334,7 @@ body.lang-cn
 		opacity: 1;
 		transform: scaleY( 1 );
 		overflow: scroll;
-		@media (min-width:1024px) {
+		@media (min-width:768px) {
 			overflow:hidden;
 		}
 	}
@@ -349,7 +348,7 @@ body.lang-cn
 	width:100%;
 	width: 100vw;
 	height: auto;
-	@media (min-width: 1025px) {
+	@media (min-width: 1281px) {
 		width: 45%;
 		float:left;
 	}
@@ -616,7 +615,21 @@ body.lang-cn
 						display:block;
 						padding-right: 230px;
 					}
-				span { display: inline-block; margin-right: 6px; }
+				span { 
+					display: inline-block; 
+					margin-right: 6px; 
+					@media (min-width: 1280px) {
+					    overflow: hidden;
+						display: -webkit-inline-box;
+						-webkit-line-clamp: 1;
+						-webkit-box-orient: vertical;
+						word-break: break-word;
+						width: 125px;
+					}
+					@media (min-width: 1400px) {
+						width: 152px;
+					}
+				}
 			}
 		}
 		.tweets {
@@ -714,7 +727,7 @@ body.lang-cn
 	}
 }
 /***** BRACKETS DESKTOP ******/
-@media (min-width:1024px) {
+@media (min-width:1280px) {
 	#brackets {
 		position: relative;
 		float: left;
@@ -825,7 +838,7 @@ body.lang-cn
 			font-size: 15px;
 			display:block;
 			text-align: center;
-			@media (max-width: 1024px) {
+			@media (max-width: 1280px) {
 				display: block;
 				text-align: left;
 			}
@@ -836,7 +849,7 @@ body.lang-cn
 			font-size: 30px;
 			width: 121px;
 			text-align: left;
-				@media (min-width: 1024px) {
+				@media (min-width: 1281px) {
 					width: auto;
 					font-size: 46px;
 					text-align: center;
@@ -854,11 +867,11 @@ body.lang-cn
 			position: absolute;
 			right: 55px;
 			top: 16px;
-			@media (min-width: 1024px) {
+			@media (min-width: 1281px) {
 				padding: 20px;
 				width: 100%;
 				right: 0;
-				top: 93px;
+				top: 74px;
 			}
 		}
 		.icon {
@@ -906,7 +919,7 @@ body.lang-cn
 ===================================================== */
 @media only screen 
 and (min-device-width : 768px) 
-and (max-device-width : 1024px)  { 
+and (max-device-width : 1280px)  { 
 	
 	#brackets {
 		.teambox-inside {
@@ -960,7 +973,7 @@ and (max-device-width : 1024px)  {
 
 /* Desktop Prize Meter
 ===================================================== */
-@media (min-width : 1024px) { 
+@media (min-width : 1280px) { 
 
 	
 	#prize-meter {
@@ -980,7 +993,7 @@ and (max-device-width : 1024px)  {
 } /* END MEDIA QUERY */
 
 
-@media (min-width:1024px) {
+@media (min-width:1280px) {
 	.graphics-card-callout-mobile { 
 		display:none;
 	}
@@ -1080,7 +1093,7 @@ and (max-device-width : 1024px)  {
 		.intro {
 			background-color: #373737;
 			padding: 15px 0;
-			@media (min-width: 1024px) {
+			@media (min-width: 1281px) {
 				padding: 15px 0 70px 0;
 			}
 		}
@@ -1124,6 +1137,8 @@ and (max-device-width : 1024px)  {
 		margin-left: -1px;
 		z-index: 9;
 		transition: all 2000ms linear;
+		max-height: 100%;
+		
 	}
 	.dot {
 		position: absolute; left: 50%;
@@ -1222,7 +1237,6 @@ and (max-device-width : 1024px)  {
 {
 	display: none;
 	position: relative;
-	height: 190px;
 	overflow: hidden;
 	overflow-x: auto;
 	border-bottom: 1px solid #000;
@@ -1243,10 +1257,13 @@ and (max-device-width : 1024px)  {
 	}
 	.padding {
 		height: 160px;
-		width: 1020px;
-		padding: 0;
+		width: 100%;
+		padding: 0 50px 0 0;
 		position: relative;
 		background: transparent url('../img/mobile/ticks.gif') repeat-x 5px 50%;
+		@media (min-width: 768px) {
+			padding: 0 25px 0 0;
+		}
 	}
 	.top-cover {
 		position: absolute; top: 0; left: 0; z-index: 99;
@@ -1254,7 +1271,7 @@ and (max-device-width : 1024px)  {
 		background-color: #f0f0f0;
 	}
 	.bottom-cover {
-		position: absolute; bottom: auto; left: 100%; top: 0;  z-index: 99;
+		position: absolute; bottom: auto; top: 0;  z-index: 99;
 		width: 28px; height: 100%;
 		background-color: #f0f0f0;
 	}
@@ -1270,7 +1287,9 @@ and (max-device-width : 1024px)  {
 		z-index: 1;
 	}
 	.progress-green {
-		width: 0; height: 4px;
+		width: 0;
+		height: 4px;
+		max-width: 100%;
 		background-color: #70af00;
 		position: absolute; top: 50%; left: 20px;
 		margin-top: -2px;
@@ -1308,11 +1327,14 @@ and (max-device-width : 1024px)  {
 		text-transform: uppercase;
 		font-family: "Fjalla One", Helvetica, Arial, sans-serif;
 		font-weight: 400;
-		font-size: 14px;
+		font-size: 12px;
 		width: 70px;
 		background-color: #f0f0f0;
 		padding: 10px 10px 10px 10px;
 		transition: all 200ms ease;
+		@media (min-width:768px) {
+			font-size: 14px;
+		}
 	}
 	.tweets {
 		position: absolute; bottom: 100%; left: -8px; z-index: 10;
@@ -1360,29 +1382,34 @@ and (max-device-width : 1024px)  {
 
 /* Tablet
 ===================================================== */
-@media (max-width:768px) {
+@media (max-width:1280px) {
 	#prize-meter {
 		.header {
 			.intro {
-				width:60%;
+				width:100%;
+				
+				.line3 {
+					width: auto;
+					padding-left: 25px;
+				}
+			}
+			.total {
+				.number {
+					right: 75px;
+					line-height: 30px;
+				}
+				.icon {
+					right: 25px;
+				}
 			}
 		}
 	}
 }
 
-@media (min-width: 768px) and (max-width:1024px) {
-	#prize-meter {
-		.header {
-			.intro {
-				width:70%;
-			}
-		}
-	}
-}
 
 
 
-@media ( max-width: 1024px ) {
+@media ( max-width: 1280px ) {
 	#brackets .teambox-inside .photo .thumbnail { height: 250px; }
 
 	#location {
@@ -1417,7 +1444,7 @@ and (max-device-width : 1024px)  {
 				}
 
 				.icon {
-					left: auto; bottom: auto; top: 2px; right: -15px;
+					left: auto; bottom: auto; top: 2px; 
 					margin: 0;
 					position: relative;
 					display: inline-block;
@@ -1557,7 +1584,7 @@ and (max-device-width : 1024px)  {
 ===================================================== */
 /* Mobile Product Call Out
 ===================================================== */
-@media only screen and (max-width : 1024px) { 
+@media only screen and (max-width : 1280px) { 
 				.graphics-card-callout-mobile {
 					display:block;
 					width:100%;
@@ -1584,7 +1611,7 @@ and (max-device-width : 1024px)  {
 						.product-info {
 							width: 100%;
 							border-top: solid 1px #4d4d4d;
-							margin-top: -24px;
+							margin-top: -35px;
 							border-bottom: solid 1px #4d4d4d;
 							float: left;
 							margin-bottom: 25px;
@@ -1624,7 +1651,7 @@ and (max-device-width : 1024px)  {
 ===================================================== */
 @media only screen 
 and (min-device-width : 768px) 
-and (max-device-width : 1024px)  { 
+and (max-device-width : 1280px)  { 
 					.graphics-card-callout-mobile {
 					display:block;
 					width:100%;
@@ -1692,7 +1719,7 @@ and (max-device-width : 1024px)  {
 	display: none;
 }
 
-@media (min-width:1024px) {
+@media (min-width:1281px) {
 	.graphics-card-callout {
             			display:block;
 						width:100%;
